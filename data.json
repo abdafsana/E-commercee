@@ -1,0 +1,180 @@
+{
+  "user": [
+    {
+      "id": "9d8s",
+      "username": "Efsane",
+      "password": "efsane@134",
+      "emailOrPhone": "afsana@gmail.com"
+    },
+    {
+      "id": "031e",
+      "username": "Afsana Abdullayeva",
+      "password": "afsana@123",
+      "emailOrPhone": "afsana@123gmail.com"
+    },
+    {
+      "id": "05d1",
+      "username": "Senan Kerimli",
+      "password": "senan23",
+      "emailOrPhone": "senankerimli1@gmail.com"
+    },
+    {
+      "id": "1adb",
+      "username": "Ayxan Meherremov",
+      "password": "ayx@n123",
+      "emailOrPhone": "ayxanmeherremov@gmail.com"
+    },
+    {
+      "id": "5167",
+      "username": "Ayxan Meherremov",
+      "password": "ayx@n123",
+      "emailOrPhone": "ayxanmeherremov@gmail.com"
+    },
+    {
+      "id": "b2c9",
+      "username": "Ayxan Meherremov",
+      "password": "ayx@n123",
+      "emailOrPhone": "ayxanmeherremov@gmail.com"
+    },
+    {
+      "id": "fd71",
+      "username": "Ayxan Meherremov",
+      "password": "ayx@n123",
+      "emailOrPhone": "ayxanmeherremov@gmail.com"
+    },
+    {
+      "id": "1e36",
+      "username": "Ayxan Meherremov",
+      "password": "ayx@n123",
+      "emailOrPhone": "ayxanmeherremov@gmail.com"
+    },
+    {
+      "id": "9c58",
+      "username": "Ayxan Meherremov",
+      "password": "ayx@n123",
+      "emailOrPhone": "ayxanmeherremov@gmail.com"
+    },
+    {
+      "id": "1992",
+      "username": "Ayxan Meherremov",
+      "password": "ayx@n123",
+      "emailOrPhone": "ayxanmeherremov@gmail.com"
+    },
+    {
+      "id": "2ab3",
+      "username": "Ayxan Meherremov",
+      "password": "ayx@n123",
+      "emailOrPhone": "ayxanmeherremov@gmail.com"
+    },
+    {
+      "id": "9de5",
+      "username": "Ayxan Meherremov",
+      "password": "ayx@n123",
+      "emailOrPhone": "ayxanmeherremov@gmail.com"
+    },
+    {
+      "id": "089b",
+      "username": "Ayxan Meherremov",
+      "password": "ayx@n123",
+      "emailOrPhone": "ayxanmeherremov@gmail.com"
+    },
+    {
+      "id": "c16c",
+      "username": "Ayxan Meherremov",
+      "password": "ayx@n123",
+      "emailOrPhone": "ayxanmeherremov@gmail.com"
+    },
+    {
+      "id": "7076",
+      "username": "Ayxan Meherremov",
+      "password": "ayx@n123",
+      "emailOrPhone": "ayxanmeherremov@gmail.com"
+    },
+    {
+      "id": "ab27",
+      "username": "Ayxan Meherremov",
+      "password": "ayx@n123",
+      "emailOrPhone": "ayxanmeherremov@gmail.com"
+    }
+  ],
+  "product":[
+    {
+      "id": "1",
+      "name": "Apple MacBook Pro 16",
+      "description": "Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019",
+      "brand": "Apple",
+      "price": "2969",
+      "category": "laptop"
+  },
+  {
+    "id":"2",
+    "title":"Sleek White & Orange Wireless Gaming Controller",
+    "price":69,
+    "description":"Elevate your gaming experience with this state-of-the-art wireless controller, featuring a crisp white base with vibrant orange accents. Designed for precision play, the ergonomic shape and responsive buttons provide maximum comfort and control for endless hours of gameplay. Compatible with multiple gaming platforms, this controller is a must-have for any serious gamer looking to enhance their setup.",
+    "images":[
+      "https://i.imgur.com/ZANVnHE.jpeg",
+      "https://i.imgur.com/Ro5z6Tn.jpeg",
+      "https://i.imgur.com/woA93Li.jpeg"],
+    "creationAt":"2024-03-21T06:44:23.000Z",
+    "updatedAt":"2024-03-21T06:44:23.000Z",
+    "category":{"id":2,
+    "name":"Electronics",
+    "image":"https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt":"2024-03-21T06:44:23.000Z",
+    "updatedAt":"2024-03-21T06:44:23.000Z"}
+  },
+  {
+    "id":19,
+    "title":"Sleek Wireless Headphone & Inked Earbud Set",
+    "price":44,
+    "description":"Experience the fusion of style and sound with this sophisticated audio set featuring a pair of sleek, white wireless headphones offering crystal-clear sound quality and over-ear comfort. The set also includes a set of durable earbuds, perfect for an on-the-go lifestyle. Elevate your music enjoyment with this versatile duo, designed to cater to all your listening needs.",
+    "images":["https://i.imgur.com/yVeIeDa.jpeg",
+    "https://i.imgur.com/jByJ4ih.jpeg",
+    "https://i.imgur.com/KXj6Tpb.jpeg"],
+    "creationAt":"2024-03-21T06:44:23.000Z",
+    "updatedAt":"2024-03-21T06:44:23.000Z",
+    "category":{"id":2,
+    "name":"Electronics",
+    "image":"https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt":"2024-03-21T06:44:23.000Z",
+    "updatedAt":"2024-03-21T06:44:23.000Z"}}
+  ],
+  "category":[
+    {
+      "id": 1,
+      "name": "Woman’s Fashion"
+    },
+    {
+      "id":2,
+      "name":"Men’s Fashion"
+    },
+    {
+      "id":3,
+      "name":"Electronics"
+    },
+    {
+      "id":4,
+      "name":"Home & Lifestyle"
+    },
+    {
+      "id":5,
+      "name":"Medicine"
+    },
+    {
+      "id":6,
+      "name":"Sports & Outdoor"
+    },
+    {
+      "id":7,
+      "name":"Baby’s & Toys"
+    },
+    {
+      "id":8,
+      "name":"Groceries & Pets"
+    },
+    {
+      "id":9,
+      "name":"Health & Beauty"
+    }
+  ]
+}
