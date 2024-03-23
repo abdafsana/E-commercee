@@ -723,3 +723,45 @@ ul > li {
 .account-detail--ftr{
   text-align: end;
 }
+/* CheckOut Page */
+.checkOut-section{
+  width: 100%;
+  height: 900px;
+  background-color: yellow;
+}
+.checkOut-container{
+  width: 70%;
+  height: 85%;
+  background-color: pink;
+}
+.checkOut-container--inputs{
+  width: 43%;
+  height: 100%;
+  /* background-color: antiquewhite; */
+}
+.checkOut-input--div{
+  padding: 5px 0px;
+}
+.checkOut-container--coupon{
+  width: 57%;
+  height: 100%;
+  background-color: aquamarine;
+}
+.checkOut-input{
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+.chckOut-pharagraf{
+  color: var(--color-mountainMist,#949393);
+}
+.chckOut-save--input{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.checkbox{
+  width: 24px;
+  height: 24px;
+  border-color: transparent;
+}

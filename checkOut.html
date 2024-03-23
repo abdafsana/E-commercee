@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Account</title>
+    <title>Cart</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
@@ -91,99 +91,46 @@
       </div>
     </header>
     <main>
-      <section class="account-section display__com">
-        <div class="container account-container common__display">
-          <div class="account-container--list">
-            <div class="account-list--one">
-              <p class="contact-call">Manage My Account</p>
-              <ul class="account-lists">
-                <li class="common-poppins__text account-list">My Profile</li>
-                <li class="common-poppins__text account-list">Address Book</li>
-                <li class="common-poppins__text account-list">
-                  My Payment Options
-                </li>
-              </ul>
+        <section class="checkOut-section display__com">
+            <div class="container checkOut-container display__between">
+                <div class="checkOut-container--inputs">
+                    <p class="form-title">Billing Details</p>
+                    <div class="checkOut-input--div">
+                        <p class="common-poppins__text chckOut-pharagraf">First Name*</p>
+                        <input type="text" class="info-com checkOut-input">
+                    </div>
+                    <div class="checkOut-input--div">
+                        <p class="common-poppins__text chckOut-pharagraf">Company Name*</p>
+                        <input type="text" class="info-com checkOut-input">
+                    </div>
+                    <div class="checkOut-input--div">
+                        <p class="common-poppins__text chckOut-pharagraf">Street Address*</p>
+                        <input type="text" class="info-com checkOut-input">
+                    </div>
+                    <div class="checkOut-input--div">
+                        <p class="common-poppins__text chckOut-pharagraf">Apartment, floor, etc. (optional)</p>
+                        <input type="text" class="info-com checkOut-input">
+                    </div>
+                    <div class="checkOut-input--div">
+                        <p class="common-poppins__text chckOut-pharagraf">Town/City*</p>
+                        <input type="text" class="info-com checkOut-input">
+                    </div>
+                    <div class="checkOut-input--div">
+                        <p class="common-poppins__text chckOut-pharagraf">Phone Number*</p>
+                        <input type="text" class="info-com checkOut-input">
+                    </div>
+                    <div class="checkOut-input--div">
+                        <p class="common-poppins__text chckOut-pharagraf">Email Address*</p>
+                        <input type="text" class="info-com checkOut-input">
+                    </div>
+                    <div class="chckOut-save--input common-poppins__text">
+                        <input type="checkbox" class="checkbox">
+                        <p>Save this information for faster check-out next time</p>
+                    </div>
+                </div>
+                <div class="checkOut-container--coupon"></div>
             </div>
-            <div class="account-list--two">
-              <p class="contact-call">My Orders</p>
-              <ul class="account-lists">
-                <li class="common-poppins__text account-list">My Returns</li>
-                <li class="common-poppins__text account-list">
-                  My Cancellations
-                </li>
-              </ul>
-            </div>
-            <div class="account-list--three">
-              <p class="contact-call">My WishList</p>
-            </div>
-          </div>
-          <div class="account-container--detail">
-            <p class="mainFooter-body__title account-edit--title">
-              Edit Your Profile
-            </p>
-            <div class="account-detail--header display__between">
-              <div class="account-header-inputOne">
-                <p class="common-poppins__text account-hd">First Name</p>
-                <input
-                  type="text"
-                  placeholder="Md"
-                  class="account-input common-poppins__text info-com"
-                />
-              </div>
-              <div class="account-header-inputTwo">
-                <p class="common-poppins__text account-hd">Last Name</p>
-                <input
-                  type="text"
-                  placeholder="Rimel"
-                  class="account-input common-poppins__text info-com"
-                />
-              </div>
-            </div>
-            <div class="account-detail--body display__between">
-              <div class="account-header-inputOne">
-                <p class="common-poppins__text account-hd">Email</p>
-                <input
-                  type="text"
-                  placeholder="rimel1111@gmail.com"
-                  class="account-input common-poppins__text info-com"
-                />
-              </div>
-              <div class="account-header-inputTwo">
-                <p class="common-poppins__text account-hd">Address</p>
-                <input
-                  type="text"
-                  placeholder="Kingston, 5236, United State"
-                  class="account-input common-poppins__text info-com"
-                />
-              </div>
-            </div>
-            <div class="account-detail--footer">
-              <p class="common-poppins__text account-hd">Password Changes</p>
-              <input
-                type="text"
-                placeholder="Current Passwod"
-                class="account-input1 common-poppins__text info-com"
-              />
-              <input
-                type="text"
-                placeholder="New Passwod"
-                class="account-input1 common-poppins__text info-com"
-              />
-              <input
-                type="text"
-                placeholder="Confirm New Passwod"
-                class="account-input1 common-poppins__text info-com"
-              />
-            </div>
-            <div class="account-detail--ftr">
-              <button class="transparent-button common-poppins__text">
-                Cancel
-              </button>
-              <button class="info-button">Save Changes</button>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
     </main>
     <!-- Footer Section -->
     <footer class="footer-section">
