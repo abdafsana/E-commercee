@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cart</title>
+    <title>CheckOut</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
@@ -90,47 +90,148 @@
         </nav>
       </div>
     </header>
+    <!-- Main Section -->
     <main>
-        <section class="checkOut-section display__com">
-            <div class="container checkOut-container display__between">
-                <div class="checkOut-container--inputs">
-                    <p class="form-title">Billing Details</p>
-                    <div class="checkOut-input--div">
-                        <p class="common-poppins__text chckOut-pharagraf">First Name*</p>
-                        <input type="text" class="info-com checkOut-input">
-                    </div>
-                    <div class="checkOut-input--div">
-                        <p class="common-poppins__text chckOut-pharagraf">Company Name*</p>
-                        <input type="text" class="info-com checkOut-input">
-                    </div>
-                    <div class="checkOut-input--div">
-                        <p class="common-poppins__text chckOut-pharagraf">Street Address*</p>
-                        <input type="text" class="info-com checkOut-input">
-                    </div>
-                    <div class="checkOut-input--div">
-                        <p class="common-poppins__text chckOut-pharagraf">Apartment, floor, etc. (optional)</p>
-                        <input type="text" class="info-com checkOut-input">
-                    </div>
-                    <div class="checkOut-input--div">
-                        <p class="common-poppins__text chckOut-pharagraf">Town/City*</p>
-                        <input type="text" class="info-com checkOut-input">
-                    </div>
-                    <div class="checkOut-input--div">
-                        <p class="common-poppins__text chckOut-pharagraf">Phone Number*</p>
-                        <input type="text" class="info-com checkOut-input">
-                    </div>
-                    <div class="checkOut-input--div">
-                        <p class="common-poppins__text chckOut-pharagraf">Email Address*</p>
-                        <input type="text" class="info-com checkOut-input">
-                    </div>
-                    <div class="chckOut-save--input common-poppins__text">
-                        <input type="checkbox" class="checkbox">
-                        <p>Save this information for faster check-out next time</p>
-                    </div>
-                </div>
-                <div class="checkOut-container--coupon"></div>
+      <!-- CheckOut Details -->
+      <section class="checkOut-section display__com">
+        <div class="container checkOut-container">
+          <div class="checkOut-container--inputs">
+            <p class="form-title">Billing Details</p>
+            <div class="checkOut-input--div">
+              <p class="common-poppins__text chckOut-pharagraf">First Name*</p>
+              <input type="text" class="info-com checkOut-input" />
             </div>
-        </section>
+            <div class="checkOut-input--div">
+              <p class="common-poppins__text chckOut-pharagraf">
+                Company Name*
+              </p>
+              <input type="text" class="info-com checkOut-input" />
+            </div>
+            <div class="checkOut-input--div">
+              <p class="common-poppins__text chckOut-pharagraf">
+                Street Address*
+              </p>
+              <input type="text" class="info-com checkOut-input" />
+            </div>
+            <div class="checkOut-input--div">
+              <p class="common-poppins__text chckOut-pharagraf">
+                Apartment, floor, etc. (optional)
+              </p>
+              <input type="text" class="info-com checkOut-input" />
+            </div>
+            <div class="checkOut-input--div">
+              <p class="common-poppins__text chckOut-pharagraf">Town/City*</p>
+              <input type="text" class="info-com checkOut-input" />
+            </div>
+            <div class="checkOut-input--div">
+              <p class="common-poppins__text chckOut-pharagraf">
+                Phone Number*
+              </p>
+              <input type="text" class="info-com checkOut-input" />
+            </div>
+            <div class="checkOut-input--div">
+              <p class="common-poppins__text chckOut-pharagraf">
+                Email Address*
+              </p>
+              <input type="text" class="info-com checkOut-input" />
+            </div>
+            <div class="chckOut-save--input common-poppins__text">
+              <input type="checkbox" class="checkbox" />
+              <p>Save this information for faster check-out next time</p>
+            </div>
+          </div>
+          <div class="checkOut-container--coupon display__com">
+            <div class="chckOut-container--detail">
+              <div class="checkOut-list--item">
+                <div class="chckOut-list--div display__com">
+                  <div class="list-div--header chckOut-div--item">
+                    <img src="./assets/image/gameToy.png" alt="img vs pctr" />
+                    <p class="common-poppins__text">LCD Monitor</p>
+                  </div>
+                  <div class="chckOut-div--price chckOut-div--item">
+                    <p class="common-poppins__text">$650</p>
+                  </div>
+                </div>
+              </div>
+              <div class="checkOut-list--item">
+                <div class="chckOut-list--div display__com">
+                  <div class="list-div--header chckOut-div--item">
+                    <img src="./assets/image/gameToy.png" alt="img vs pctr" />
+                    <p class="common-poppins__text">LCD Monitor</p>
+                  </div>
+                  <div class="chckOut-div--price chckOut-div--item">
+                    <p class="common-poppins__text">$650</p>
+                  </div>
+                </div>
+              </div>
+              <div class="checkOut-list--items">
+                <div class="coupon-com">
+                  <div class="coupon-cart display__com">
+                    <div class="cart-lists">
+                      <div class="cart-list--item">
+                        <div class="cart-list--data display__between">
+                          <p class="common-poppins__text">Subtotal:</p>
+                          <p class="common-poppins__text">$1750</p>
+                        </div>
+                      </div>
+                      <div class="cart-list--item">
+                        <div class="cart-list--data display__between">
+                          <p class="common-poppins__text">Shipping:</p>
+                          <p class="common-poppins__text">Free</p>
+                        </div>
+                      </div>
+                      <div class="cart-list--item cart-list--itemF">
+                        <div class="cart-list--data display__between">
+                          <p class="common-poppins__text">Total:</p>
+                          <p class="common-poppins__text">$1750</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="checkOut-list--item display__between">
+                <div class="chckOut-bank display__com">
+                  <div class="radio-btn"></div>
+                  <p class="common-poppins__text">Bank</p>
+                </div>
+                <div class="chckOut-bank__connect display__com">
+                  <img src="./assets/image/bKash.png" alt="bKash card" />
+                  <img src="./assets/image/Visa.png" alt="Visa card" />
+                  <img
+                    src="./assets/image/Mastercard.png"
+                    alt="MasterCard card"
+                  />
+                  <img src="./assets/image/Nagad.png" alt="Nagad card" />
+                </div>
+              </div>
+              <div class="checkOut-list--item chck-delivery">
+                <div class="radio-btn display__com">
+                  <div class="radio-fullBtn"></div>
+                </div>
+                <p class="common-poppins__text">Cash on delivery</p>
+              </div>
+              <div class="checkOut-list--item2 display__between">
+                <input
+                  type="text"
+                  placeholder="Coupon Code"
+                  class="coupon-input common-poppins__text inp-visible"
+                />
+                <button class="coupon-btn form-button__create">
+                  Apply Coupon
+                </button>
+              </div>
+              <div class="checkOut-list--item">
+                <button
+                  class="common-poppins__text checkOut-placeOrder--button form-button__create"
+                >
+                  Place Order
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- Footer Section -->
     <footer class="footer-section">

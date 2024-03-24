@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- Header Section -->
@@ -90,7 +97,146 @@
         </nav>
       </div>
     </header>
-
+    <main>
+      <!-- Cart HeaderSection -->
+      <section class="cart-section">
+        <div class="container cart-container">
+          <ul class="card-list--header common__display">
+            <li class="common-poppins__text">Product</li>
+            <li class="common-poppins__text">Price</li>
+            <li class="common-poppins__text">Quantity</li>
+            <li class="common-poppins__text">Subtotal</li>
+          </ul>
+        </div>
+      </section>
+      <!-- Cart BodySection -->
+      <section class="cart-body--section display__com">
+        <div class="cart-body--container">
+          <ul class="card-list--body">
+            <li class="card-list--item">
+              <div class="list-div common__display">
+                <div class="list-div--header list-div--item common__display">
+                  <img src="./assets/image/gameToy.png" alt="img vs pctr" />
+                  <p class="common-poppins__text">LCD Monitor</p>
+                </div>
+                <div class="list-div--price list-div--item display__com">
+                  <p class="common-poppins__text">$650</p>
+                </div>
+                <div class="list-div--count list-div--item display__com">
+                  <div class="count-div display__com">
+                    <p class="common-poppins__text">01</p>
+                    <div class="count-upDown">
+                      <i class="fa-solid fa-chevron-up"></i>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-div--subtotal list-div--item display__com">
+                  <p class="common-poppins__text">$650</p>
+                </div>
+              </div>
+            </li>
+            <li class="card-list--item">
+              <div class="list-div common__display">
+                <div class="list-div--header list-div--item common__display">
+                  <img src="./assets/image/gameToy.png" alt="img vs pctr" />
+                  <p class="common-poppins__text">LCD Monitor</p>
+                </div>
+                <div class="list-div--price list-div--item display__com">
+                  <p class="common-poppins__text">$650</p>
+                </div>
+                <div class="list-div--count list-div--item display__com">
+                  <div class="count-div display__com">
+                    <p class="common-poppins__text">02</p>
+                    <div class="count-upDown">
+                      <i class="fa-solid fa-chevron-up"></i>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-div--subtotal list-div--item display__com">
+                  <p class="common-poppins__text">$650</p>
+                </div>
+              </div>
+            </li>
+            <li class="card-list--item">
+              <div class="list-div common__display">
+                <div class="list-div--header list-div--item common__display">
+                  <img src="./assets/image/gameToy.png" alt="img vs pctr" />
+                  <p class="common-poppins__text">LCD Monitor</p>
+                </div>
+                <div class="list-div--price list-div--item display__com">
+                  <p class="common-poppins__text">$650</p>
+                </div>
+                <div class="list-div--count list-div--item display__com">
+                  <div class="count-div display__com">
+                    <p class="common-poppins__text">03</p>
+                    <div class="count-upDown">
+                      <i class="fa-solid fa-chevron-up"></i>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-div--subtotal list-div--item display__com">
+                  <p class="common-poppins__text">$650</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="cart-footer--section display__between">
+            <button class="cart-button poppins-font500">Return To Shop</button>
+            <button class="cart-button poppins-font500">Update Cart</button>
+          </div>
+        </div>
+      </section>
+      <!-- Cart Coupon -->
+      <section class="coupon-section">
+        <div class="container coupon-container">
+          <div class="coupon-container--input display__between">
+            <input
+              type="text"
+              placeholder="Coupon Code"
+              class="coupon-input common-poppins__text inp-visible"
+            />
+            <button class="coupon-btn form-button__create">Apply Coupon</button>
+          </div>
+          <div class="coupon-container--cart">
+            <div class="cart-com">
+              <p class="poppins-font20">Cart Total</p>
+              <div class="coupun-cart display__com">
+                <ul class="cart-lists">
+                  <li class="cart-list--item">
+                    <div class="cart-list--data display__between">
+                      <p class="common-poppins__text">Subtotal:</p>
+                      <p class="common-poppins__text">$1750</p>
+                    </div>
+                  </li>
+                  <li class="cart-list--item">
+                    <div class="cart-list--data display__between">
+                      <p class="common-poppins__text">Shipping:</p>
+                      <p class="common-poppins__text">Free</p>
+                    </div>
+                  </li>
+                  <li class="cart-list--item cart-list--itemF">
+                    <div class="cart-list--data display__between">
+                      <p class="common-poppins__text">Total:</p>
+                      <p class="common-poppins__text">$1750</p>
+                    </div>
+                  </li>
+                  <li class="cart-list--item cart-list--itemF display__com">
+                    <button
+                      class="poppins-font500 coupon-list--btn form-button__create"
+                    >
+                      Procees to checkout
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- Footer Section -->
     <footer class="footer-section">
       <div class="container footer-container">
