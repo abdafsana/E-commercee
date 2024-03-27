@@ -23,22 +23,67 @@
       "username": "Ayxan Meherremov",
       "password": "ayx@n123",
       "emailOrPhone": "ayxanmeherremov@gmail.com"
+    },
+    {
+      "id": "26c5",
+      "username": "Afsana Abdullayeva",
+      "password": "afsana@123",
+      "emailOrPhone": "afsana@123gmail.com"
+    },
+    {
+      "id": "8c71",
+      "username": "Efsane Abdullayeva",
+      "password": "efsane@134",
+      "emailOrPhone": "afsana@gmail.com"
+    },
+    {
+      "id": "5c40",
+      "username": "Efsane Abdullayeva",
+      "password": "efsane@134",
+      "emailOrPhone": "afsana@gmail.com"
+    },
+    {
+      "id": "cfb5",
+      "username": "Anaxanim Memmedova",
+      "password": "anax@nim12",
+      "emailOrPhone": "anaxanim12@gmail.com"
+    },
+    {
+      "id": "2fec",
+      "username": "Anaxanim Memmedova",
+      "password": "anax@nim12",
+      "emailOrPhone": "anaxanim12@gmail.com"
     }
   ],
   "product": [
     {
       "id": "1",
-      "name": "Apple MacBook Pro 16",
+      "title": "Apple MacBook Pro 16",
       "description": "Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019",
-      "brand": "Apple",
       "price": "2969",
-      "category": "laptop"
+      "discount": "2834",
+      "stock": "inStock",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/6/1.pngImage preview",
+        "https://cdn.dummyjson.com/product-images/6/2.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/6/4.jpgImage preview"
+      ],
+      "creationAt": "2024-03-21T06:44:23.000Z",
+      "updatedAt": "2024-03-21T06:44:23.000Z",
+      "category": {
+        "id": "3",
+        "name": "Electronics",
+        "creationAt": "2024-03-21T06:44:23.000Z",
+        "updatedAt": "2024-03-21T06:44:23.000Z"
+      }
     },
     {
       "id": "2",
       "title": "Sleek White & Orange Wireless Gaming Controller",
-      "price": 69,
       "description": "Elevate your gaming experience with this state-of-the-art wireless controller, featuring a crisp white base with vibrant orange accents. Designed for precision play, the ergonomic shape and responsive buttons provide maximum comfort and control for endless hours of gameplay. Compatible with multiple gaming platforms, this controller is a must-have for any serious gamer looking to enhance their setup.",
+      "price": "693",
+      "discount": "666",
+      "stock": "inStock",
       "images": [
         "https://i.imgur.com/ZANVnHE.jpeg",
         "https://i.imgur.com/Ro5z6Tn.jpeg",
@@ -47,18 +92,19 @@
       "creationAt": "2024-03-21T06:44:23.000Z",
       "updatedAt": "2024-03-21T06:44:23.000Z",
       "category": {
-        "id": 2,
+        "id": "3",
         "name": "Electronics",
-        "image": "https://i.imgur.com/ZANVnHE.jpeg",
         "creationAt": "2024-03-21T06:44:23.000Z",
         "updatedAt": "2024-03-21T06:44:23.000Z"
       }
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "Sleek Wireless Headphone & Inked Earbud Set",
-      "price": 44,
       "description": "Experience the fusion of style and sound with this sophisticated audio set featuring a pair of sleek, white wireless headphones offering crystal-clear sound quality and over-ear comfort. The set also includes a set of durable earbuds, perfect for an on-the-go lifestyle. Elevate your music enjoyment with this versatile duo, designed to cater to all your listening needs.",
+      "price": "443",
+      "discount": "403",
+      "stock": "inStock",
       "images": [
         "https://i.imgur.com/yVeIeDa.jpeg",
         "https://i.imgur.com/jByJ4ih.jpeg",
@@ -67,9 +113,31 @@
       "creationAt": "2024-03-21T06:44:23.000Z",
       "updatedAt": "2024-03-21T06:44:23.000Z",
       "category": {
-        "id": 2,
+        "id": "2",
         "name": "Electronics",
-        "image": "https://i.imgur.com/ZANVnHE.jpeg",
+        "creationAt": "2024-03-21T06:44:23.000Z",
+        "updatedAt": "2024-03-21T06:44:23.000Z"
+      }
+    },
+    {
+      "id": "4",
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": "549",
+      "discount": "467",
+      "stock": "inStock",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/1/1.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/1/2.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/1/3.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/1/4.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpgImage preview"
+      ],
+      "creationAt": "2024-03-21T06:44:23.000Z",
+      "updatedAt": "2024-03-21T06:44:23.000Z",
+      "category": {
+        "id": "2",
+        "name": "Electronics",
         "creationAt": "2024-03-21T06:44:23.000Z",
         "updatedAt": "2024-03-21T06:44:23.000Z"
       }
@@ -77,39 +145,39 @@
   ],
   "category": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Woman’s Fashion"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Men’s Fashion"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Electronics"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Home & Lifestyle"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Medicine"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Sports & Outdoor"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Baby’s & Toys"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Groceries & Pets"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Health & Beauty"
     }
   ]

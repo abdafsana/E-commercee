@@ -1,6 +1,6 @@
 const filter = document.querySelector(".filter-lists");
 
-fetch("http://localhost:8080/category")
+fetch("http://localhost:3000/category")
   .then((res) => res.json())
   .then((data) => filterList(data));
 
