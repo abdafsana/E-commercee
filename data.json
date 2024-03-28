@@ -25,31 +25,7 @@
       "emailOrPhone": "ayxanmeherremov@gmail.com"
     },
     {
-      "id": "26c5",
-      "username": "Afsana Abdullayeva",
-      "password": "afsana@123",
-      "emailOrPhone": "afsana@123gmail.com"
-    },
-    {
-      "id": "8c71",
-      "username": "Efsane Abdullayeva",
-      "password": "efsane@134",
-      "emailOrPhone": "afsana@gmail.com"
-    },
-    {
-      "id": "5c40",
-      "username": "Efsane Abdullayeva",
-      "password": "efsane@134",
-      "emailOrPhone": "afsana@gmail.com"
-    },
-    {
       "id": "cfb5",
-      "username": "Anaxanim Memmedova",
-      "password": "anax@nim12",
-      "emailOrPhone": "anaxanim12@gmail.com"
-    },
-    {
-      "id": "2fec",
       "username": "Anaxanim Memmedova",
       "password": "anax@nim12",
       "emailOrPhone": "anaxanim12@gmail.com"
@@ -141,7 +117,671 @@
         "creationAt": "2024-03-21T06:44:23.000Z",
         "updatedAt": "2024-03-21T06:44:23.000Z"
       }
-    }
+    },
+    {
+      "id": "10",
+      "title": "Hoodie Gris Clásico",
+      "description": "Mejora tu vestimenta casual con nuestro Hoodie Gris Clásico. Made from a soft cotton blend, this hoodie features a front kangaroo pocket, an adjustable drawstring hood, and ribbed cuffs for a snug fit. Perfect for those chilly evenings or lazy weekends, it pairs effortlessly with your favorite jeans or joggers.",
+      "price": "88",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/R2PN9Wq.jpegImage preview",
+        "https://i.imgur.com/IvxMPFr.jpegImage preview",
+        "https://i.imgur.com/7eW9nXP.jpegImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T14:54:21.000Z",
+      "category": {
+        "id": "2",
+        "name": "Men’s Fashion",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T09:38:03.000Z"
+      }
+    },
+    {
+      "id": "12",
+      "title": "Classic Black Hooded Sweatshirt",
+      "description": "Elevate your casual wardrobe with our Classic Black Hooded Sweatshirt. Made from high-quality, soft fabric that ensures comfort and durability, this hoodie features a spacious kangaroo pocket and an adjustable drawstring hood. Its versatile design makes it perfect for a relaxed day at home or a casual outing.",
+      "price": "79",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/cSytoSD.jpegImage preview",
+        "https://i.imgur.com/WwKucXb.jpegImage preview",
+        "https://i.imgur.com/cE2Dxh9.jpegImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "1",
+        "name": "Woman’s Fashion",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T09:38:03.000Z"
+      }
+    },
+    {
+      "id": "13",
+      "title": "Classic Comfort Fit Joggers",
+      "description": "Discover the perfect blend of style and comfort with our Classic Comfort Fit Joggers. These versatile black joggers feature a soft elastic waistband with an adjustable drawstring, two side pockets, and ribbed ankle cuffs for a secure fit. Made from a lightweight and durable fabric, they are ideal for both active days and relaxed lounging.",
+      "price": "25",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/ZKGofuB.jpegImage preview",
+        "https://i.imgur.com/GJi73H0.jpegImage preview",
+        "https://i.imgur.com/633Fqrz.jpegImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "1",
+        "name": "Woman’s Fashion",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T09:38:03.000Z"
+      }
+    },
+    {
+      "id": "14",
+      "title": "Classic Comfort Drawstring Joggers",
+      "description": "Experience the perfect blend of comfort and style with our Classic Comfort Drawstring Joggers. Designed for a relaxed fit, these joggers feature a soft, stretchable fabric, convenient side pockets, and an adjustable drawstring waist with elegant gold-tipped detailing. Ideal for lounging or running errands, these pants will quickly become your go-to for effortless, casual wear.",
+      "price": "79",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/mp3rUty.jpegImage preview",
+        "https://i.imgur.com/JQRGIc2.jpegImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "1",
+        "name": "Woman’s Fashion",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T09:38:03.000Z"
+      }
+    },
+    {
+      "id": "15",
+      "title": "Classic Red Jogger Sweatpants",
+      "description": "Experience ultimate comfort with our red jogger sweatpants, perfect for both workout sessions and lounging around the house. Made with soft, durable fabric, these joggers feature a snug waistband, adjustable drawstring, and practical side pockets for functionality. Their tapered design and elastic cuffs offer a modern fit that keeps you looking stylish on the go.",
+      "price": "98",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/9LFjwpI.jpegImage preview",
+        "https://i.imgur.com/vzrTgUR.jpegImage preview",
+        "https://i.imgur.com/p5NdI6n.jpegImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "2",
+        "name": "Men’s Fashion",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T09:38:03.000Z"
+      }
+    },
+    {
+      "id": "16",
+      "title": "Classic Navy Blue Baseball Cap",
+      "description": "Step out in style with this sleek navy blue baseball cap. Crafted from durable material, it features a smooth, structured design and an adjustable strap for the perfect fit. Protect your eyes from the sun and complement your casual looks with this versatile and timeless accessory.",
+      "price": "61",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/R3iobJA.jpegImage preview",
+        "https://i.imgur.com/Wv2KTsf.jpegImage preview",
+        "https://i.imgur.com/76HAxcA.jpegImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "2",
+        "name": "Men’s Fashion",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T09:38:03.000Z"
+      }
+    },
+    {
+      "id": "17",
+      "title": "Classic Red Baseball Cap",
+      "description": "Elevate your casual wardrobe with this timeless red baseball cap. Crafted from durable fabric, it features a comfortable fit with an adjustable strap at the back, ensuring one size fits all. Perfect for sunny days or adding a sporty touch to your outfit.",
+      "price": "35",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/cBuLvBi.jpegImage preview",
+        "https://i.imgur.com/N1GkCIR.jpegImage preview",
+        "https://i.imgur.com/kKc9A5p.jpegImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "2",
+        "name": "Men’s Fashion",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T09:38:03.000Z"
+      }
+    },
+    {
+      "id": "18",
+      "title": "Classic Black Baseball Cap",
+      "description": "Elevate your casual wear with this timeless black baseball cap. Made with high-quality, breathable fabric, it features an adjustable strap for the perfect fit. Whether you’re out for a jog or just running errands, this cap adds a touch of style to any outfit.",
+      "price": "58",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/KeqG6r4.jpegImage preview",
+        "https://i.imgur.com/xGQOw3p.jpegImage preview",
+        "https://i.imgur.com/oO5OUjb.jpegImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "6",
+        "name": "Sports & Outdoor",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T09:38:03.000Z"
+      }
+    },
+    {
+      "id": "19",
+      "title": "Sleek Comfort-Fit Over-Ear Headphones",
+      "description": "Experience superior sound quality with our Sleek Comfort-Fit Over-Ear Headphones, designed for prolonged use with cushioned ear cups and an adjustable, padded headband. Ideal for immersive listening, whether you're at home, in the office, or on the move. Their durable construction and timeless design provide both aesthetically pleasing looks and long-lasting performance.",
+      "price": "28",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/SolkFEB.jpegImage preview",
+        "https://i.imgur.com/KIGW49u.jpegImage preview",
+        "https://i.imgur.com/mWwek7p.jpegImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "3",
+        "name": "Electronics",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T09:38:03.000Z"
+      }
+    },
+    {
+      "id": "20",
+      "title": "Efficient 2-Slice Toaster",
+      "description": "Enhance your morning routine with our sleek 2-slice toaster, featuring adjustable browning controls and a removable crumb tray for easy cleaning. This compact and stylish appliance is perfect for any kitchen, ensuring your toast is always golden brown and delicious.",
+      "price": "334",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/keVCVIa.jpegImage preview",
+        "https://i.imgur.com/afHY7v2.jpegImage preview",
+        "https://i.imgur.com/yAOihUe.jpegImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "3",
+        "name": "Electronics",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T09:38:03.000Z"
+      }
+    },
+    {
+      "id": "21",
+      "title": "Sleek Modern Leather Sofa",
+      "description": "Enhance the elegance of your living space with our Sleek Modern Leather Sofa. Designed with a minimalist aesthetic, it features clean lines and a luxurious leather finish. The robust metal legs provide stability and support, while the plush cushions ensure comfort. Perfect for contemporary homes or office waiting areas, this sofa is a statement piece that combines style with practicality.",
+      "price": "1202",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/Qphac99.jpegImage preview",
+        "https://i.imgur.com/dJjpEgG.jpegImage preview",
+        "https://i.imgur.com/MxJyADq.jpegImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "4",
+        "name": "Home & Lifestyle",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T15:19:10.000Z"
+      }
+    },
+    {
+      "id": "22",
+      "title": "Mid-Century Modern Wooden Dining Table",
+      "description": "Elevate your dining room with this sleek Mid-Century Modern dining table, featuring an elegant walnut finish and tapered legs for a timeless aesthetic. Its sturdy wood construction and minimalist design make it a versatile piece that fits with a variety of decor styles. Perfect for intimate dinners or as a stylish spot for your morning coffee.",
+      "price": "124",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/DMQHGA0.jpegImage preview",
+        "https://i.imgur.com/qrs9QBg.jpegImage preview",
+        "https://i.imgur.com/XVp8T1I.jpegImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "4",
+        "name": "Home & Lifestyle",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T15:19:10.000Z"
+      }
+    },
+    {
+      "id": "23",
+      "title": "Elegant Golden-Base Stone Top Dining Table",
+      "description": "Elevate your dining space with this luxurious table, featuring a sturdy golden metal base with an intricate rod design that provides both stability and chic elegance. The smooth stone top in a sleek round shape offers a robust surface for your dining pleasure. Perfect for both everyday meals and special occasions, this table easily complements any modern or glam decor.",
+      "price": "606",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/NWIJKUj.jpegImage preview",
+        "https://i.imgur.com/Jn1YSLk.jpegImage preview",
+        "https://i.imgur.com/VNZRvx5.jpegImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "4",
+        "name": "Home & Lifestyle",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T15:19:10.000Z"
+      }
+    },
+    {
+      "id": "24",
+      "title": "Modern Elegance Teal Armchair",
+      "description": "Elevate your living space with this beautifully crafted armchair, featuring a sleek wooden frame that complements its vibrant teal upholstery. Ideal for adding a pop of color and contemporary style to any room, this chair provides both superb comfort and sophisticated design. Perfect for reading, relaxing, or creating a cozy conversation nook.",
+      "price": "1205",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/6wkyyIN.jpegImage preview",
+        "https://i.imgur.com/Ald3Rec.jpegImage preview",
+        "https://i.imgur.com/dIqo03c.jpegImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "4",
+        "name": "Home & Lifestyle",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T15:19:10.000Z"
+      }
+    },
+    {
+      "id": "25",
+      "title": "Elegant Solid Wood Dining Table",
+      "description": "Enhance your dining space with this sleek, contemporary dining table, crafted from high-quality solid wood with a warm finish. Its sturdy construction and minimalist design make it a perfect addition for any home looking for a touch of elegance. Accommodates up to six guests comfortably and includes a striking fruit bowl centerpiece. The overhead lighting is not included.",
+      "price": "673",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/4lTaHfF.jpegImage preview",
+        "https://i.imgur.com/JktHE1C.jpegImage preview",
+        "https://i.imgur.com/cQeXQMi.jpegImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "4",
+        "name": "Home & Lifestyle",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T15:19:10.000Z"
+      }
+    },
+    {
+      "id": "26",
+      "title": "Modern Minimalist Workstation Setup",
+      "description": "Elevate your home office with our Modern Minimalist Workstation Setup, featuring a sleek wooden desk topped with an elegant computer, stylish adjustable wooden desk lamp, and complimentary accessories for a clean, productive workspace. This setup is perfect for professionals seeking a contemporary look that combines functionality with design.",
+      "price": "349",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/3oXNBst.jpegImage preview",
+        "https://i.imgur.com/ErYYZnT.jpegImage preview",
+        "https://i.imgur.com/boBPwYW.jpegImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "4",
+        "name": "Home & Lifestyle",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T15:19:10.000Z"
+      }
+    },
+    {
+      "id": "27",
+      "title": "Sleek Futuristic Electric Bicycle",
+      "description": "This modern electric bicycle combines style and efficiency with its unique design and top-notch performance features. Equipped with a durable frame, enhanced battery life, and integrated tech capabilities, it's perfect for the eco-conscious commuter looking to navigate the city with ease.",
+      "price": "345",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/BG8J0Fj.jpgImage preview",
+        "https://i.imgur.com/ujHBpCX.jpgImage preview",
+        "https://i.imgur.com/WHeVL9H.jpgImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "6",
+        "name": "Sports & Outdoor",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T09:38:03.000Z"
+      }
+    },
+    {
+      "id": "28",
+      "title": "Sleek All-Terrain Go-Kart",
+      "description": "Experience the thrill of outdoor adventures with our Sleek All-Terrain Go-Kart, featuring a durable frame, comfortable racing seat, and robust, large-tread tires perfect for handling a variety of terrains. Designed for fun-seekers of all ages, this go-kart is an ideal choice for backyard racing or exploring local trails.",
+      "price": "378",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/Ex5x3IU.jpgImage preview",
+        "https://i.imgur.com/z7wAQwe.jpgImage preview",
+        "https://i.imgur.com/kc0Dj9S.jpgImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "6",
+        "name": "Sports & Outdoor",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T09:38:03.000Z"
+      }
+    },
+    {
+      "id": "29",
+      "title": "Radiant Citrus Eau de Parfum",
+      "description": "Indulge in the essence of summer with this vibrant citrus-scented Eau de Parfum. Encased in a sleek glass bottle with a bold orange cap, this fragrance embodies freshness and elegance. Perfect for daily wear, it's an olfactory delight that leaves a lasting, zesty impression.",
+      "price": "73",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/xPDwUb3.jpgImage preview",
+        "https://i.imgur.com/3rfp691.jpgImage preview",
+        "https://i.imgur.com/kG05a29.jpgImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "9",
+        "name": "Health & Beauty",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T09:38:03.000Z"
+      }
+    },
+    {
+      "id": "30",
+      "title": "Elegant Glass Tumbler Set",
+      "description": "Enhance your drinkware collection with our sophisticated set of glass tumblers, perfect for serving your favorite beverages. This versatile set includes both clear and subtly tinted glasses, lending a modern touch to any table setting. Crafted with quality materials, these durable tumblers are designed to withstand daily use while maintaining their elegant appeal.",
+      "price": "50",
+      "stock": "inStock",
+      "images": [
+        "https://i.imgur.com/TF0pXdL.jpgImage preview",
+        "https://i.imgur.com/BLDByXP.jpgImage preview",
+        "https://i.imgur.com/b7trwCv.jpgImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "9",
+        "name": "Health & Beauty",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T09:38:03.000Z"
+      }
+    },
+    {
+      "id": "31",
+      "title": "Gulab Powder 50 Gram",
+      "description": "Dry Rose Flower Powder Gulab Powder 50 Gram • Treats Wounds",
+      "price": "70",
+      "discountPercentage": "13.58",
+      "stock": "inStock",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/25/1.pngImage preview",
+        "https://cdn.dummyjson.com/product-images/25/2.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/25/3.pngImage preview",
+        "https://cdn.dummyjson.com/product-images/25/4.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/25/thumbnail.jpgImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "5",
+        "name": "Medicine",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T09:38:03.000Z"
+      }
+    },
+    {
+      "id": "32",
+      "title": "cereals muesli fruit nuts",
+      "description": "original fauji cereal muesli 250gm box pack original fauji cereals muesli fruit nuts flakes breakfast cereal break fast faujicereals cerels cerel foji fouji",
+      "price": "46",
+      "discountPercentage": "16.8",
+      "stock": "inStock",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/24/1.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/24/2.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/24/3.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/24/4.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/24/thumbnail.jpgImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "5",
+        "name": "Medicine",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T15:19:10.000Z"
+      }
+    },
+    {
+      "id": "33",
+      "title": "Orange Essence Food Flavou",
+      "description": "Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
+      "price": "14",
+      "discountPercentage": "8.04",
+      "stock": "inStock",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/23/1.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/23/2.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/23/3.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/23/4.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/23/thumbnail.jpgImage preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "9",
+        "name": "Health & Beauty",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T15:19:10.000Z"
+      }
+    },
+    {
+      "id": "34",
+      "title": "Skin Beauty Serum.",
+      "description": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
+      "price": "46",
+      "discountPercentage": "10.68",
+      "stock": "inStock",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/19/1.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/19/2.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/19/3.pngImage preview",
+        "https://cdn.dummyjson.com/product-images/19/thumbnail.jpgImage preview"
+      ],
+      "creationAt": "2024-03-21T06:44:23.000Z",
+      "updatedAt": "2024-03-21T06:44:23.000Z",
+      "category": {
+        "id": "9",
+        "name": "Health & Beauty",
+        "creationAt": "2024-03-21T06:44:23.000Z",
+        "updatedAt": "2024-03-21T06:44:23.000Z"
+      }
+    },
+    {
+      "id": "35",
+      "title": "Oil Free Moisturizer 100ml",
+      "description": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
+      "price": "40",
+      "discountPercentage": "13.1",
+      "stock": "inStock",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/18/1.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/18/2.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/18/3.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/18/4.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/18/thumbnail.jpgImage preview"
+      ],
+      "creationAt": "2024-03-21T06:44:23.000Z",
+      "updatedAt": "2024-03-21T06:44:23.000Z",
+      "category": {
+        "id": "9",
+        "name": "Health & Beauty",
+        "creationAt": "2024-03-21T06:44:23.000Z",
+        "updatedAt": "2024-03-21T06:44:23.000Z"
+      }
+    },
+    {
+      "id": "36",
+      "title": "Tree Oil 30ml",
+      "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
+      "price": "12",
+      "discountPercentage": "4.09",
+      "stock": "inStock",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/17/1.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/17/2.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/17/3.jpgImage preview",
+        "https://cdn.dummyjson.com/product-images/17/thumbnail.jpgImage preview"
+      ],
+      "creationAt": "2024-03-21T06:44:23.000Z",
+      "updatedAt": "2024-03-21T06:44:23.000Z",
+      "category": {
+        "id": "9",
+        "name": "Health & Beauty",
+        "creationAt": "2024-03-21T06:44:23.000Z",
+        "updatedAt": "2024-03-21T06:44:23.000Z"
+      }
+    },
+    {
+      "id": "37",
+      "title": "Wood Toy",
+      "description": "1pc Baby Early Educational Intelligent Seven-color Xylophone Wooden Hand Knock Infant Wood Toy For Children",
+      "price": "12",
+      "discountPercentage": "4.09",
+      "stock": "inStock",
+      "images": [
+        "https://img.ltwebstatic.com/images3_spmp/2023/07/23/16900961218a2e05d77c7dc166cca997ad1e34328b_thumbnail_900x.webp preview",
+        "https://img.ltwebstatic.com/images3_spmp/2023/07/23/1690096121fb09bada3f65cdf738c2affd63e06bb8_thumbnail_900x.webp preview",
+        "https://img.ltwebstatic.com/images3_spmp/2023/07/23/16900961216adb7136650c408219a4161826971640_thumbnail_900x.webp preview",
+        "hhttps://img.ltwebstatic.com/images3_spmp/2023/07/23/1690096121ed00b039e6d32e49d096c3e6d4324514_thumbnail_900x.webp preview"
+      ],
+      "creationAt": "2024-03-21T06:44:23.000Z",
+      "updatedAt": "2024-03-21T06:44:23.000Z",
+      "category": {
+        "id": "7",
+        "name": "Baby’s & Toys",
+        "creationAt": "2024-03-21T06:44:23.000Z",
+        "updatedAt": "2024-03-21T06:44:23.000Z"
+      }
+    },
+    {
+      "id": "38",
+      "title": "Sleek Modern Leather Sofa",
+      "description": "Enhance the elegance of your living space with our Sleek Modern Leather Sofa. Designed with a minimalist aesthetic, it features clean lines and a luxurious leather finish. The robust metal legs provide stability and support, while the plush cushions ensure comfort. Perfect for contemporary homes or office waiting areas, this sofa is a statement piece that combines style with practicality.",
+      "price": "1202",
+      "stock": "inStock",
+      "images": [
+        "https://img.ltwebstatic.com/images3_spmp/2023/09/20/a0/16951746740db07193a695b6408809872244dffaee_thumbnail_900x.webp preview",
+        "https://img.ltwebstatic.com/images3_spmp/2023/09/13/6e/169459575558bc579194d2f7764e9a8ba7c8ce6dac_thumbnail_900x.webp preview",
+        "https://img.ltwebstatic.com/images3_spmp/2023/09/13/04/1694595756e89f900970810cda9d1e8e32d1356383_thumbnail_900x.webp preview",
+        "https://img.ltwebstatic.com/images3_spmp/2023/09/13/6e/1694595755e88934434085bbfd08ae7f2e3c221f30_thumbnail_900x.webp preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "7",
+        "name": "Baby’s & Toys",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T15:19:10.000Z"
+      }
+    },
+    {
+      "id": "39",
+      "title": "Fun Mini Kid's Water Toy",
+      "description": "1pc Fun Mini Kid's Water Dispenser Toy Kitchen Pretend Play Baby Toy",
+      "price": "35",
+      "stock": "inStock",
+      "images": [
+        "https://img.ltwebstatic.com/images3_spmp/2023/07/19/16897524507ba9736694784cb811ab6dd4cb25db4e_thumbnail_900x.webp preview",
+        "https://img.ltwebstatic.com/images3_spmp/2023/07/19/1689752449069dfe666f2869358f6d8d56d83a7da3_thumbnail_900x.webp preview",
+        "https://img.ltwebstatic.com/images3_spmp/2023/07/19/168975244935359218b07c1db6e88262b62cb6b8ce_thumbnail_900x.webp preview",
+        "https://img.ltwebstatic.com/images3_spmp/2023/07/19/168975245024fb3db5534aa2599864eb402d332a18_thumbnail_900x.webp preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "7",
+        "name": "Baby’s & Toys",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T09:38:03.000Z"
+      }
+    },
+    {
+      "id": "40",
+      "title": "Clouds Hanging Toys",
+      "description": "Macabaka Baby Mobile For Crib, Boho Cloud Mobile Macrame Tassels With Hanging Rotating Toys Nursery Mobiles Decor Infant Bed Decoration For Newborn Boys And Girls, Blue",
+      "price": "61",
+      "stock": "inStock",
+      "images": [
+        "https://img.ltwebstatic.com/images3_spmp/2024/02/29/6a/170918713648c2774d2e317ce1959841018fef8e0e_thumbnail_900x.webp preview",
+        "https://img.ltwebstatic.com/images3_spmp/2024/02/29/0e/17091871324a933675ffe86cd93f22b8de1004ea90_thumbnail_900x.webp preview",
+        "https://img.ltwebstatic.com/images3_spmp/2024/02/29/01/1709187134355ae63fc963ac13bf819bdd6231c460_thumbnail_900x.webp preview",
+        "https://img.ltwebstatic.com/images3_spmp/2024/02/29/01/170918713413e22bc836efcab14cb842feb1f53602_thumbnail_900x.webp preview"
+      ],
+      "creationAt": "2024-03-28T09:38:03.000Z",
+      "updatedAt": "2024-03-28T09:38:03.000Z",
+      "category": {
+        "id": "7",
+        "name": "Baby’s & Toys",
+        "creationAt": "2024-03-28T09:38:03.000Z",
+        "updatedAt": "2024-03-28T09:38:03.000Z"
+      }
+    },
+    {
+      "id": "41",
+      "title": "Universal Holder Toy Teether Chains",
+      "description": "4pcs/pack Multi-function Elastic Cord Pacifier Clip | Universal Holder Toy Teether Chains | Plastic Clasp For Baby Teething Toys | Great Baby Shower Gift For Both Boys And Girls",
+      "price": "693",
+      "discount": "666",
+      "stock": "inStock",
+      "images": [
+        "https://img.ltwebstatic.com/images3_spmp/2023/06/07/16861487558a54da86774c0d419b1b78ec45b84b31_thumbnail_900x.webp",
+        "https://img.ltwebstatic.com/images3_spmp/2023/07/04/1688469675516add4ab2547752ccf8e140f47fb625_thumbnail_900x.webp",
+        "https://img.ltwebstatic.com/images3_spmp/2023/07/04/16884696746b1a8441b08e9dd2c5d03cfc698133d7_thumbnail_900x.webp",
+        "https://img.ltwebstatic.com/images3_spmp/2023/07/04/16884696756bd548d41dc63935d3652c31f733aa0c_thumbnail_900x.webp"
+      ],
+      "creationAt": "2024-03-21T06:44:23.000Z",
+      "updatedAt": "2024-03-21T06:44:23.000Z",
+      "category": {
+        "id": "7",
+        "name": "Baby’s & Toys",
+        "creationAt": "2024-03-21T06:44:23.000Z",
+        "updatedAt": "2024-03-21T06:44:23.000Z"
+      }
+    },
+    {
+      "id": "19",
+      "title": "Puppy Letter Print Tote Bag, Dachshund Cartoon Patterntrendy",
+      "description": "Linen Handbag, Color Pattern Gift Bag, Fashion Versatile Simple Linen Tote Bag, Reusable Grocery Shopping Bag, For Festival Back To School,Teachers Gift Ideal Gift,Thank You Gift Idea,Appreciation Gifts,Monogrammed Gifts Bag,Reusable,Teacher Bag,Holiday Shop Bag Educator,Mom Ideal Brides Maid Gifts",
+      "price": "443",
+      "discount": "403",
+      "stock": "inStock",
+      "images": [
+        "https://img.ltwebstatic.com/images3_spmp/2023/10/30/42/16986447659530457b401a991b9a0b58a6072b6271_thumbnail_900x.webp",
+        "https://img.ltwebstatic.com/images3_spmp/2023/12/23/bf/1703317476eb12a00ba68a1b0c476f8970e4d00f19_thumbnail_900x.webp",
+        "https://img.ltwebstatic.com/images3_spmp/2023/10/30/ae/16986352122de43fa970424fcf6416a0c9aab56d12_thumbnail_900x.webp",
+        "https://img.ltwebstatic.com/images3_spmp/2023/10/30/3e/1698635199d9b2f155aab518557e715442ad23899d.webp"
+      ],
+      "creationAt": "2024-03-21T06:44:23.000Z",
+      "updatedAt": "2024-03-21T06:44:23.000Z",
+      "category": {
+        "id": "2",
+        "name": "Electronics",
+        "creationAt": "2024-03-21T06:44:23.000Z",
+        "updatedAt": "2024-03-21T06:44:23.000Z"
+      }
+    },
   ],
   "category": [
     {
