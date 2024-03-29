@@ -1,11 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
-const form = document.querySelector(".form-body");
-
-form.addEventListener("click", function (e) {
-  e.preventDefault();
-  // alert("clkc")
-  console.log("clicked");
-  getUserData();
+const logbtn= document.querySelector(".login-button");
+  logbtn.addEventListener("click", function (e) {
+    e.preventDefault();
+    getUserData();
+  });
 });
 
 function getUserData() {
@@ -17,19 +15,13 @@ function getUserData() {
 function checkUser(users) {
   const emailorPhoneInput = document.querySelector(".emailOrPhone-input").value;
   const passwordInput = document.querySelector(".password-input").value;
-  console.log(users);
-  users.forEach((user) => {
-    console.log(user.emailOrPhone);
-    console.log("email input", emailorPhoneInput);
-    console.log("pass input", passwordInput);
-
-    if (user.emailOrPhone === emailorPhoneInput && user.password === passwordInput) {
-    alert("succesfully");
-        // console.log("succesfuly");
+  if(emailorPhoneInput!=null){
+    let u=users.find(u=>u.emailOrPhone==emailorPhoneInput)
+    console.log(u);
+    if (u.password === passwordInput) {
         window.location.href="index.html";
-    }
-    document.querySelector(".emailOrPhone-input").value = "";
-    document.querySelector(".password-input").value = "";
-});
+      }
+  }
+  document.querySelector(".emailOrPhone-input").value = "";
+  document.querySelector(".password-input").value = "";
 }
-});
