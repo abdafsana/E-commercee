@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-commerce</title>
+    <title>Product Detail</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link
       rel="stylesheet"
@@ -12,7 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
   </head>
   <body>
     <!-- Header section -->
@@ -98,113 +98,114 @@
         </nav>
       </div>
     </header>
-
     <!-- Main Section -->
-    <main class="home-main">
-      <!-- Filter Section -->
-      <section class="filter-section">
-        <div class="container filter-container display__com">
-          <div class="filter-container__list fltr-container">
-            <ul class="filter-lists"></ul>
+    <main>
+      <section class="productDetail-section display__com">
+        <div class="container productDetail-container display__between">
+          <div class="productDetail-container--left display__com">
+            <ul class="productDetail-lists">
+              <li class="productDetail-list--item display__com">
+                <img src="./assets/image/bagShop.png" alt="json file image" />
+              </li>
+              <li class="productDetail-list--item display__com">
+                <img src="./assets/image/bagShop.png" alt="json file image" />
+              </li>
+              <li class="productDetail-list--item display__com">
+                <img src="./assets/image/bagShop.png" alt="json file image" />
+              </li>
+            </ul>
+            <div class="productDetail-greatProduct">
+              <div class="greatProduct-image">
+                <img src="./assets/image/bagShop.png" alt="json file image" />
+              </div>
+            </div>
           </div>
-          <div class="filter-container__animation fltr-container">
-            <div class="filter-container--common display__between">
-              <div class="filter-container--txt">
-                <div class="fltr-contr--txt">
-                  <img
-                    src="./assets/image/iphone.png"
-                    alt="iphone series image animations"
-                  />
-                  <h1 class="fltr-txt">
-                    Up to 10% <br />
-                    off Voucher
-                  </h1>
-                  <a href="#" class="fltr-link"
-                    >Shop Now <i class="fa-solid fa-arrow-right"></i
-                  ></a>
+          <div class="productDetail-container--right">
+            <div class="product-header">
+              <h5 class="product-name inter-font-24">Havic HV G-92 Gamepad</h5>
+              <div class="product-voting display__between">
+                <div class="star-icon--div div-star--icons">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span class="poppins-font14 reviews">(150 Reviews)</span>
+                </div>
+                <p class="instock poppins-font14">inStock</p>
+              </div>
+              <p class="product-price inter-font400">$192.00</p>
+              <p class="product-descrition poppins-font14">
+                PlayStation 5 Controller Skin High quality vinyl with air
+                channel adhesive for easy bubble free install & mess free
+                removal Pressure sensitive.
+              </p>
+            </div>
+            <div class="product-body">
+              <div class="product-color">
+                <p class="inter-font20">Colours:</p>
+                <div class="colors">
+                  <div class="color"></div>
                 </div>
               </div>
-              <div class="filter-container--pctr display__com">
-                <img
-                  src="./assets/image/slide-show_img.png"
-                  alt="slide show image vs picture"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- OurProduct Section -->
-      <section class="card-section display__com">
-        <div class="container card-container display__between">
-          <div class="card-container--header">
-            <div class="card-header--section">
-              <div class="red-box"></div>
-              <p class="common-poppins card-text">Our Products</p>
-            </div>
-            <div class="cardHeader-footer display__between">
-              <p class="inter--font600">Explore Our Products</p>
-              <div class="cardHeader-footer--icons display__com">
-                <div class="cardHeader-footer--icons1 display__com">
-                  <i class="fa-solid fa-arrow-left"></i>
+              <div class="product-size">
+                <p class="inter-font20">Size:</p>
+                <div class="size-div display__com">
+                  <p class="size poppins-font_14">XS</p>
                 </div>
-                <div class="cardHeader-footer--icons1 display__com">
-                  <i class="fa-solid fa-arrow-right"></i>
+              </div>
+              <div class="product-count display__between">
+                <div class="count-btn display__com">
+                  <div class="cnt-btn btn1 display__com">
+                    <i class="fa-solid fa-minus"></i>
+                  </div>
+                  <div class="counts display__com poppins-font20">1</div>
+                  <div class="cnt-btn btn2 display__com">
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
                 </div>
-                <div class="swiper-pagination"></div>
+                <button
+                  class="product-btn buy-btn form-button__create poppins-font500"
+                >
+                  Buy Now
+                </button>
+                <div class="product-heart display__com">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="card-items"></div> 
-          <button class="info-button">View All Products</button>
-        </div>
-        </div>
-      </section>
-      <!-- MainFooter Section -->
-      <section class="mainFooter_section display__com">
-        <div class="container mainFooter_container common__display">
-          <div class="mainFooter-card display__com">
-            <div class="mainFooter-card--header activity-div display__com">
-              <div class="activity-icon--div display__com">
-                <i class="fa-solid fa-truck-fast"></i>
-              </div>
-            </div>
-            <div class="mainFooter-card--body">
-              <p class="mainFooter-body__title">FREE AND FAST DELIVERY</p>
-              <span class="mainFooter-body__subtitle common-poppins"
-                >Free delivery for all orders over $140</span
-              >
-            </div>
-          </div>
-          <div class="mainFooter-card display__com">
-            <div class="mainFooter-card--header activity-div display__com">
-              <div class="activity-icon--div display__com">
-                <i class="fa-solid fa-shop"></i>
-              </div>
-            </div>
-            <div class="mainFooter-card--body">
-              <p class="mainFooter-body__title">24/7 CUSTOMER SERVICE</p>
-              <span class="mainFooter-body__subtitle common-poppins"
-                >Friendly 24/7 customer support</span
-              >
-            </div>
-          </div>
-          <div class="mainFooter-card display__com">
-            <div class="mainFooter-card--header activity-div display__com">
-              <div class="activity-icon--div display__com">
-                <i class="fa-solid fa-shop"></i>
-              </div>
-            </div>
-            <div class="mainFooter-card--body">
-              <p class="mainFooter-body__title">MONEY BACK GUARANTEE</p>
-              <span class="mainFooter-body__subtitle common-poppins"
-                >We reurn money within 30 days</span
-              >
+            <div class="product-footer">
+              <ul class="product-footer--list">
+                <li class="product-list--item lst-item1">
+                  <div class="list-div">
+                    <i class="fa-solid fa-truck-fast delivery-truck"></i>
+                    <div class="list-div--about">
+                      <p class="poppins-font500">Free Delivery</p>
+                      <a href="#" class="delivery-link poppins-font12"
+                        >Enter your postal code for Delivery Availability</a
+                      >
+                    </div>
+                  </div>
+                </li>
+                <li class="product-list--item lst-item2">
+                  <div class="list-div">
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                    <div class="list-div--about">
+                      <p class="poppins-font500">Return Delivery</p>
+                      <p class="poppins-font12">
+                        Free 30 Days Delivery Returns.
+                        <a href="#" class="delivery-link">Details</a>
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
     </main>
+
     <!-- Footer Section -->
     <footer class="footer-section">
       <div class="container footer-container">
@@ -354,7 +355,5 @@
         </p>
       </div>
     </footer>
-    <script src="./assets/js/swiper-bundle.min.js"></script>
-    <script src="./assets/js/index.js" defer></script>
   </body>
 </html>
