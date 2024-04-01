@@ -75,12 +75,12 @@
   ],
   "product": [
     {
-      "id": "1",
+      "id": 1,
       "title": "Apple MacBook Pro 16",
       "description": "Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019",
       "price": "2969",
       "discount": "2834",
-      "stock": "34",
+      "stock": "inStock",
       "images": [
         "https://kontakt.az/media/catalog/product/cache/b34559cb8eb520f2bea0d3245ba154fd/n/e/new-project-2023-02-17t101813.676-1_png_1.png",
         "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/n/e/new-project-2023-02-17t102208.611_png_1.png",
@@ -97,12 +97,12 @@
       }
     },
     {
-      "id": "2",
+      "id": 2,
       "title": "Sleek White & Orange Wireless Gaming Controller",
       "description": "Elevate your gaming experience with this state-of-the-art wireless controller, featuring a crisp white base with vibrant orange accents. Designed for precision play, the ergonomic shape and responsive buttons provide maximum comfort and control for endless hours of gameplay. Compatible with multiple gaming platforms, this controller is a must-have for any serious gamer looking to enhance their setup.",
       "price": "693",
       "discount": "666",
-      "stock": "23",
+      "stock": "inStock",
       "images": [
         "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/6/1/612bjwBuobS._SL1500_.png",
         "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/6/1/61ypl-HOWS._SL1500_.png",
