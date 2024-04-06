@@ -19,18 +19,18 @@ function repeatDetailProduct(product) {
     detailContainer.innerHTML += `       <div class="productDetail-container--left display__com">
         <ul class="productDetail-lists">
           <li class="productDetail-list--item display__com">
-            <img src=${item.images[0]} alt="json file image" />
-          </li>
-          <li class="productDetail-list--item display__com">
             <img src=${item.images[1]} alt="json file image" />
           </li>
           <li class="productDetail-list--item display__com">
             <img src=${item.images[2]} alt="json file image" />
           </li>
+          <li class="productDetail-list--item display__com">
+            <img src=${item.images[3]} alt="json file image" />
+          </li>
         </ul>
         <div class="productDetail-greatProduct">
           <div class="greatProduct-image">
-            <img src=${item.images[3]} alt="json file image" />
+            <img src=${item.images[0]} alt="json file image" />
           </div>
         </div>
       </div>

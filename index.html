@@ -60,38 +60,38 @@
             </ul>
             <div class="navbar-container--detail navbar__div">
               <div class="navbar-detail__conatiner display__com navbar-com">
-                <div class="navbar-input__div common__display">
+                <a class="navbar-input__div common__display" href="#carditems">
                   <input
                     type="text"
-                    class="navbar-input common-poppins"
-                    placeholder="What are you looking for?"
-                  />
+                    class="navbar-input common-poppins search-input"
+                    placeholder="What are you looking for?">
+                  
                   <img src="./assets/image/search.png" alt="search icon" />
-                </div>
-                <div class="navbar-wishlist">
+                </a>
+                <a href="./wishlist.html" class="navbar-wishlist">
                   <img
                     src="./assets/image/wishList.svg"
                     alt="wislist icon"
                     width="22px"
                     height="22px"
                   />
-                </div>
-                <div class="navbar-buy">
+                </a>
+                <a href="./cart.html" class="navbar-buy">
                   <img
                     src="./assets/image/buy.svg"
                     alt="buy icon"
                     width="22px"
                     height="22px"
                   />
-                </div>
-                <div class="navbar-user">
+                </a>
+                <a href="./account.html" class="navbar-user">
                   <img
                     src="./assets/image/user.svg"
                     alt="user icon"
                     width="22px"
                     height="22px"
                   />
-                </div>
+                </a>
               </div>
             </div>
           </div>
@@ -134,16 +134,221 @@
           </div>
         </div>
       </section>
+         <!-- Today's Section -->
+         <section class="today-section">
+          <div class="container today-container">
+            <div class="card-container--header">
+              <div class="card-header--section">
+                <div class="red-box"></div>
+                <p class="contact-call wishList-miniFoot">Today’s</p>
+              </div>
+              <div class="cardHeader-footer display__between">
+                <div class="flash-sales--container display__com">
+                  <p class="inter--font600 flash-text">Flash Sales</p>
+                  <div class="flash-div">
+                    <div class="flash-divs display__com">
+                      <div class="flash-div--item">
+                          <span>Days</span>
+                          <div class="flash-item display__com">
+                          <p class="day"></p>
+                          </div>
+                      </div>
+                      <span class="clone">:</span>
+                      <div class="flash-div--item">
+                          <span>Hours</span>
+                          <div class="flash-item">
+                            <p class="hour"></p>
+                          </div>
+                          
+                      </div>
+                      <span class="clone">:</span>
+                      <div class="flash-div--item">
+                          <span>Minutes</span>
+                          <div class="flash-item">
+                          <p class="minute"></p>
+                        </div>
+                      </div>
+                      <span class="clone">:</span>
+                      <div class="flash-div--item">
+                          <span>Seconds</span>
+                          <div class="flash-item">
+                          <p class="second"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardHeader-footer--icons display__com">
+                  <div class="cardHeader-footer--icons1 display__com">
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </div>
+                  <div class="cardHeader-footer--icons1 display__com">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="today-card display__between">
+              <div class="card-item">
+                <div class="card-item--body display__between">
+                  <div class="cardItem-header">
+                    <div class="card-percantage">
+                    
+                    </div>
+                    <div class="card-Icons">
+                      <div class="card-Icon display__com">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card-Icon display__com">
+                      <i class="fa-regular fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="./productDetail.html?id=${product.id}">
+                  <img src="./assets/image/bagShop.png" alt="cart image" />
+                  </a>
+                </div>
+                <a href="./cart.html" class="card-item--footer display__com" onclick="addCardProduct()">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <p class="common-poppins  card--cartIcon">Add To Cart</p>
+                </a>
+                <div class="card-item--minifooter">
+                  <p class="poppins-font500 card-title">bag asdhjck</p>
+                  <p class="poppins-font500 wishList-miniFoot">$54<span class="wishList-miniFoot--subtitle">$43</span></p>
+                  <div class="star-icons">
+                    <div class="star-icon--div">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>              
+              </div>
+              <div class="card-item">
+                <div class="card-item--body display__between">
+                  <div class="cardItem-header">
+                    <div class="card-percantage">
+                    </div>
+                    <div class="card-Icons">
+                      <div class="card-Icon display__com">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card-Icon display__com">
+                      <i class="fa-regular fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="./productDetail.html?id=${product.id}">
+                  <img src="./assets/image/bagShop.png" alt="cart image" />
+                  </a>
+                </div>
+                <a href="./cart.html" class="card-item--footer display__com">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <p class="common-poppins  card--cartIcon">Add To Cart</p>
+                </a>
+                <div class="card-item--minifooter">
+                  <p class="poppins-font500 card-title">bag asdhjck</p>
+                  <p class="poppins-font500 wishList-miniFoot">$54<span class="wishList-miniFoot--subtitle">$43</span></p>
+                  <div class="star-icons">
+                    <div class="star-icon--div">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>              
+              </div>
+              <div class="card-item">
+                <div class="card-item--body display__between">
+                  <div class="cardItem-header">
+                    <div class="card-percantage">
+                    </div>
+                    <div class="card-Icons">
+                      <div class="card-Icon display__com">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card-Icon display__com">
+                      <i class="fa-regular fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="./productDetail.html?id=${product.id}">
+                  <img src="./assets/image/bagShop.png" alt="cart image" />
+                  </a>
+                </div>
+                <a href="./cart.html" class="card-item--footer display__com">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <p class="common-poppins  card--cartIcon">Add To Cart</p>
+                </a>
+                <div class="card-item--minifooter">
+                  <p class="poppins-font500 card-title">bag asdhjck</p>
+                  <p class="poppins-font500 wishList-miniFoot">$54<span class="wishList-miniFoot--subtitle">$43</span></p>
+                  <div class="star-icons">
+                    <div class="star-icon--div">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>              
+              </div>
+              <div class="card-item">
+                <div class="card-item--body display__between">
+                  <div class="cardItem-header">
+                    <div class="card-percantage">
+                    </div>
+                    <div class="card-Icons">
+                      <div class="card-Icon display__com">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card-Icon display__com">
+                      <i class="fa-regular fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="./productDetail.html?id=${product.id}">
+                  <img src="./assets/image/bagShop.png" alt="cart image" />
+                  </a>
+                </div>
+                <a href="./cart.html" class="card-item--footer display__com">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <p class="common-poppins  card--cartIcon">Add To Cart</p>
+                </a>
+                <div class="card-item--minifooter">
+                  <p class="poppins-font500 card-title">bag asdhjck</p>
+                  <p class="poppins-font500 wishList-miniFoot">$54<span class="wishList-miniFoot--subtitle">$43</span></p>
+                  <div class="star-icons">
+                    <div class="star-icon--div">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>              
+              </div>
+            </div>
+            <button class="checkOut-placeOrder--button form-button__create poppins-font500 display__com vw-btn">View All Products</button>
+          <!-- <button class="view-btn1 poppins-font500">View All</button> -->
+        </div>
+          </section>
       <!-- Browse Category -->
       <section class="browse-section display__com">
-        <div class="container browse-container">
+        <div class="container browse-container mySwiper display__between">
       <div class="card-container--header">
         <div class="card-header--section">
           <div class="red-box"></div>
-          <p class="common-poppins card-text">Our Products</p>
+          <p class="contact-call wishList-miniFoot">Categories</p>
         </div>
         <div class="cardHeader-footer display__between">
-          <p class="inter--font600">Explore Our Products</p>
+          <p class="inter--font600">Browse By Category</p>
           <div class="cardHeader-footer--icons display__com">
             <div class="cardHeader-footer--icons1 display__com">
               <i class="fa-solid fa-arrow-left"></i>
@@ -151,54 +356,70 @@
             <div class="cardHeader-footer--icons1 display__com">
               <i class="fa-solid fa-arrow-right"></i>
             </div>
-            <div class="swiper-pagination"></div>
           </div>
         </div>
       </div>
       <div class="card-body display__between">
         <div class="browse-card">
-          <p></p>
+          <i class="fa-brands fa-shopify"></i>
+          <p>Woman’s Fashion</p>
         </div>
         <div class="browse-card">
-          <p></p>
+          <i class="fa-brands fa-black-tie"></i>
+          <p>Men’s Fashion</p>
         </div>
         <div class="browse-card">
-          <p></p>
+          <i class="fa-solid fa-gamepad"></i>
+          <p>Electronics</p>
         </div>
         <div class="browse-card">
-          <p></p>
+          <i class="fa-solid fa-couch"></i>
+          <p>Home & Lifestyle</p>
         </div>
         <div class="browse-card">
-          <p></p>
+          <i class="fa-solid fa-stethoscope"></i>
+          <p>Medicine</p>
         </div>
         <div class="browse-card">
-          <p></p>
+          <i class="fa-solid fa-baseball-bat-ball"></i>
+          <p>Sports & Outdoor</p>
         </div>
+        <!-- <div class="browse-card">
+          <i class="fa-solid fa-baby-carriage"></i>
+          <p>Baby’s & Toys</p>
+        </div>
+        <div class="browse-card">
+          <i class="fa-solid fa-paw"></i>
+          <p>Groceries & Pets</p>
+        </div>
+        <div class="browse-card">
+          <i class="fa-solid fa-notes-medical"></i>
+          <p>Health & Beauty</p>
+        </div> -->
       </div>
     </div>
-    </section>
+      </section>
       <!-- OurProduct Section -->
       <section class="card-section display__com">
         <div class="container card-container display__between">
           <div class="card-container--header">
             <div class="card-header--section">
               <div class="red-box"></div>
-              <p class="common-poppins card-text">Our Products</p>
+              <p class="contact-call wishList-miniFoot">Our Products</p>
             </div>
             <div class="cardHeader-footer display__between">
               <p class="inter--font600">Explore Our Products</p>
               <div class="cardHeader-footer--icons display__com">
-                <div class="cardHeader-footer--icons1 display__com">
+                <div class="cardHeader-footer--icons1 display__com" onclick="prevPage()">
                   <i class="fa-solid fa-arrow-left"></i>
                 </div>
-                <div class="cardHeader-footer--icons1 display__com">
+                <div class="cardHeader-footer--icons1 display__com" onclick="nextPage()">
                   <i class="fa-solid fa-arrow-right"></i>
                 </div>
-                <div class="swiper-pagination"></div>
               </div>
             </div>
           </div>
-          <div class="card-items"></div> 
+          <div class="card-items" id="carditems"></div> 
           <button class="info-button">View All Products</button>
         </div>
         </div>
@@ -397,7 +618,6 @@
         </p>
       </div>
     </footer>
-    <script src="./assets/js/swiper-bundle.min.js"></script>
     <script src="./assets/js/index.js" defer></script>
   </body>
 </html>
