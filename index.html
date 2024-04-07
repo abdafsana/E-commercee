@@ -12,11 +12,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
   </head>
   <body>
     <!-- Header section -->
-    <header class="header-section">
+    <header class="header-section" id="header">
       <div class="container header-container">
         <div class="nvbr-container">
           <div class="nvbr__div">
@@ -42,7 +41,7 @@
         <nav class="navbar">
           <div class="navbar-container common__display">
             <div class="navbar-container--title navbar__div">
-              <p class="navbar-title">Exclusive</p>
+              <h1 class="navbar-title">Exclusive</h1>
             </div>
             <ul class="navbar-list navbar__div">
               <li class="navbar-list__item common-poppins">
@@ -66,31 +65,17 @@
                     class="navbar-input common-poppins search-input"
                     placeholder="What are you looking for?">
                   
-                  <img src="./assets/image/search.png" alt="search icon" />
+                    <i class="fa-solid fa-magnifying-glass navbar-icons"></i>
                 </a>
                 <a href="./wishlist.html" class="navbar-wishlist">
-                  <img
-                    src="./assets/image/wishList.svg"
-                    alt="wislist icon"
-                    width="22px"
-                    height="22px"
-                  />
+                  <i class="fa-regular fa-heart navbar-icons"></i>
                 </a>
                 <a href="./cart.html" class="navbar-buy">
-                  <img
-                    src="./assets/image/buy.svg"
-                    alt="buy icon"
-                    width="22px"
-                    height="22px"
-                  />
+                  <i class="fa-solid fa-cart-shopping navbar-icons"></i>
+                  <span id="cart-count" class="cart-count"></span>
                 </a>
                 <a href="./account.html" class="navbar-user">
-                  <img
-                    src="./assets/image/user.svg"
-                    alt="user icon"
-                    width="22px"
-                    height="22px"
-                  />
+                  <i class="fa-solid fa-user navbar-icons"></i>
                 </a>
               </div>
             </div>
@@ -115,10 +100,10 @@
                     src="./assets/image/iphone.png"
                     alt="iphone series image animations"
                   />
-                  <h1 class="fltr-txt">
+                  <p class="fltr-txt">
                     Up to 10% <br />
                     off Voucher
-                  </h1>
+                  </p>
                   <a href="#" class="fltr-link"
                     >Shop Now <i class="fa-solid fa-arrow-right"></i
                   ></a>
@@ -208,7 +193,7 @@
                   <img src="./assets/image/bagShop.png" alt="cart image" />
                   </a>
                 </div>
-                <a href="./cart.html" class="card-item--footer display__com" onclick="addCardProduct()">
+                <a href="./cart.html" class="card-item--footer display__com">
                   <i class="fa-solid fa-cart-shopping"></i>
                   <p class="common-poppins  card--cartIcon">Add To Cart</p>
                 </a>
@@ -398,6 +383,39 @@
         </div> -->
       </div>
     </div>
+      </section>
+      <!-- Addition Section -->
+      <section class="addition-section display__com">
+        <div class="container addition-container display__com">
+          <div class="addition-left--container display__com">
+            <div class="addition-text--container">
+            <p class="contact-call instock">Categories</p>
+            <p class="addition-about fltr-txt">Enhance Your Music Experience</p>
+            <div class="div-hours display__between">
+              <div class="div-hour--item">
+                <p class="div-hour contact-call div-hour--num">23</p>
+                <span class="div-hour--context common-poppins">Hours</span>
+              </div>
+              <div class="div-hour--item">
+                <p class="div-day contact-call div-hour--num">05</p>
+                <span class="div-hour--context common-poppins">Days</span>
+              </div>
+              <div class="div-hour--item">
+                <p class="div-minutes contact-call div-hour--num">59</p>
+                <span class="div-hour--context common-poppins">Minutes</span>
+              </div>
+              <div class="div-hour--item">
+                <p class="div-seconds contact-call div-hour--num">35</p>
+                <span class="div-hour--context common-poppins">Seconds</span>
+              </div>
+            </div>
+            <button class="buy-btn">Buy Now!</button>
+          </div>
+        </div>
+          <div class="addition-right--container">
+            <img src="./assets/image/JBL.png" alt="categories">
+          </div>
+        </div>
       </section>
       <!-- OurProduct Section -->
       <section class="card-section display__com">

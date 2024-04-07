@@ -1,22 +1,35 @@
-const detailContainer = document.querySelector(".productDetail-common--container");
+const detailContainer = document.querySelector(
+  ".productDetail-common--container"
+);
 
 async function fetchData() {
-    let productId = new URLSearchParams(window.location.search).get("id");
-    try {
-      const response = await fetch("http://localhost:3000/product?id=" + productId);
-      const data = await response.json();
-      repeatDetailProduct(data);
-    } catch (error) {
-      console.error("Error fetching product detail:", error);
-    }
-  }
-  
-  fetchData();
+  let productId = new URLSearchParams(window.location.search).get("id");
+    const response = await fetch(
+      "http://localhost:3000/product?id=" + productId
+    );
+    const data = await response.json();
+    repeatDetailProduct(data);
+
+}
+
+fetchData();
 
 function repeatDetailProduct(product) {
   detailContainer.innerHTML = "";
+
   product.forEach(function (item) {
-    detailContainer.innerHTML += `       <div class="productDetail-container--left display__com">
+
+    const colors = item.color; 
+    const colorDivs = colors.map((color) => {
+      return `<div class="color-box" style="background-color: ${color};"></div>`;
+    });
+    
+    const sizes = item.size;
+    const sizeOptions = sizes.map((size) => {
+      return `<p class="size poppins-font_14 display__com">${size}</p>`;
+    });
+
+    detailContainer.innerHTML += `<div class="productDetail-container--left display__com">
         <ul class="productDetail-lists">
           <li class="productDetail-list--item display__com">
             <img src=${item.images[1]} alt="json file image" />
@@ -57,13 +70,13 @@ function repeatDetailProduct(product) {
           <div class="product-color">
             <p class="inter-font20">Colours:</p>
             <div class="colors">
-              <div class="color"></div>
+            ${colorDivs.join("")}
             </div>
           </div>
           <div class="product-size">
             <p class="inter-font20">Size:</p>
             <div class="size-div display__com">
-              <p class="size poppins-font_14">XS</p>
+              ${sizeOptions.join("")}
             </div>
           </div>
           <div class="product-count display__between">

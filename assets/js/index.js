@@ -45,10 +45,10 @@ function displayList(items, rows_per_page, page) {
       <img class="card-img" src=${item.images[0]} alt="cart image" />
       </a>
     </div>
-    <a href="./cart.html" class="card-item--footer display__com" onclick="addCardProduct('${item.images[0]}','${item.title}',${item.price})">
+    <div class="card-item--footer display__com" onclick="addToCart()">
     <i class="fa-solid fa-cart-shopping"></i>
-    <p class="common-poppins  card--cartIcon">Add To Cart</p>
-    </a>
+    <p class="common-poppins card--cartIcon">Add To Cart</p>
+    </div>
     <div class="card-item--minifooter">
       <p class="poppins-font500 card-title">${item.title}</p>
       <p class="poppins-font500 wishList-miniFoot">$${item.price}<span class="wishList-miniFoot--subtitle">${item.discount}</span></p>
@@ -98,24 +98,19 @@ function filterList(list) {
   });
 }
 
-// Create Card
-function repeatProduct(products) {
-  
-  products.forEach(function (product) {
-   
-  });
+// Basket add
+function addToCart() {
+  const cardCount=document.querySelector(".cart-count");
+  cardCount.style.opacity="1";
+  const cartCountElement = document.getElementById('cart-count');
+  let currentCount = parseInt(cartCountElement.textContent) || 0;
+  currentCount++; 
+  cartCountElement.textContent = currentCount;
 }
 
-// const icon = document.querySelector(".card-item--footer");
 
-// icon.addEventListener("click", function () {
-//   localStorage.setItem("cartIcon", icon.outerHTML);
-//   alert("fcgvhbjnkm");
-// });
 
-// const cartContainer = document.querySelector(".card-item--footer");
-// const savedIcon = localStorage.getItem("cartIcon");
-// cartContainer.innerHTML += savedIcon;
+
 
 // Flash Sale
 
@@ -149,44 +144,44 @@ setInterval(updateTime, 1000);
 const cardProductContainer = document.querySelector(".card-list--body");
 // console.log(cardProductContainer);
 
-function addCardProduct(img, title, price) {
-  // console.log(img, title, price)
-  cardProductContainer.innerHTML += `
-    <li class="card-list--item">
-              <div class="list-div common__display">
-                <div class="list-div--header list-div--item common__display">
-                  <img src=${img} alt=${title} />
-                  <p class="common-poppins__text">${title}</p>
-                </div>
-                <div class="list-div--price list-div--item display__com">
-                  <p class="common-poppins__text">$${price}</p>
-                </div>
-                <div class="list-div--count list-div--item display__com">
-                  <div class="count-div display__com">
-                    <p class="common-poppins__text">01</p>
-                    <div class="count-upDown">
-                      <i class="fa-solid fa-chevron-up"></i>
-                      <i class="fa-solid fa-chevron-down"></i>
-                    </div>
-                  </div>
-                </div>
-                <div class="list-div--subtotal list-div--item display__com">
-                  <p class="common-poppins__text">$650</p>
-                </div>
-              </div>
-            </li>
-    `;
-}
+// function addCardProduct(img, title, price) {
+//   // console.log(img, title, price)
+//   cardProductContainer.innerHTML += `
+//     <li class="card-list--item">
+//               <div class="list-div common__display">
+//                 <div class="list-div--header list-div--item common__display">
+//                   <img src=${img} alt=${title} />
+//                   <p class="common-poppins__text">${title}</p>
+//                 </div>
+//                 <div class="list-div--price list-div--item display__com">
+//                   <p class="common-poppins__text">$${price}</p>
+//                 </div>
+//                 <div class="list-div--count list-div--item display__com">
+//                   <div class="count-div display__com">
+//                     <p class="common-poppins__text">01</p>
+//                     <div class="count-upDown">
+//                       <i class="fa-solid fa-chevron-up"></i>
+//                       <i class="fa-solid fa-chevron-down"></i>
+//                     </div>
+//                   </div>
+//                 </div>
+//                 <div class="list-div--subtotal list-div--item display__com">
+//                   <p class="common-poppins__text">$650</p>
+//                 </div>
+//               </div>
+//             </li>
+//     `;
+// }
 
-const searchInput = document.querySelector(".search-input");
-searchInput.addEventListener("input", function (e) {
-  let resultData = allData.filter(function (product) {
-    let productTitle = product.title.toLowerCase();
-    // console.log(productTitle);
-    let searchTitleInput = e.target.value.toLowerCase();
-    // console.log(searchTitleInput);
-    // window.location.href = "#carditems";
-    return productTitle.includes(searchTitleInput);
-  });
-  repeatProduct(resultData);
-});
+// const searchInput = document.querySelector(".search-input");
+// searchInput.addEventListener("input", function (e) {
+//   let resultData = allData.filter(function (product) {
+//     let productTitle = product.title.toLowerCase();
+//     // console.log(productTitle);
+//     let searchTitleInput = e.target.value.toLowerCase();
+//     // console.log(searchTitleInput);
+//     // window.location.href = "#carditems";
+//     return productTitle.includes(searchTitleInput);
+//   });
+//   repeatProduct(resultData);
+// });
