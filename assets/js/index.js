@@ -45,7 +45,7 @@ function displayList(items, rows_per_page, page) {
       <img class="card-img" src=${item.images[0]} alt="cart image" />
       </a>
     </div>
-    <div class="card-item--footer display__com" onclick="addToCart()">
+    <div class="card-item--footer display__com" onclick="addToCart(${item.id})">
     <i class="fa-solid fa-cart-shopping"></i>
     <p class="common-poppins card--cartIcon">Add To Cart</p>
     </div>
@@ -98,21 +98,72 @@ function filterList(list) {
   });
 }
 
+
+
+
+
+
+
 // Basket add
-function addToCart() {
-  const cardCount=document.querySelector(".cart-count");
-  cardCount.style.opacity="1";
+// let productId = new URLSearchParams(window.location.search).get("id");
+// function addToCart(productId) { 
+
+//   let cartItems = JSON.parse(localStorage.getItem('cartItems'));
+//   // cartItems.push(productId);
+
+//   const cardCount = document.querySelector(".cart-count");
+//   cardCount.style.opacity = "1";
+
+//   const cartCountElement = document.getElementById('cart-count');
+//   let currentCount = parseInt(cartCountElement.textContent) || 0;
+//   currentCount++;
+  
+//   cartCountElement.textContent = currentCount;
+
+//   localStorage.setItem('cartItems', JSON.stringify(cartItems));
+//   // window.location.href = `cart.html?id=${productId}`;
+  
+// }
+
+
+
+
+
+
+function addToCart(productId) {
+    const cardCount = document.querySelector(".cart-count");
+  cardCount.style.opacity = "1";
+
   const cartCountElement = document.getElementById('cart-count');
   let currentCount = parseInt(cartCountElement.textContent) || 0;
-  currentCount++; 
+  currentCount++;
+  
   cartCountElement.textContent = currentCount;
+
+  // Ürün ID'sini sepete eklemek için
+  let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+
+  // Sepete eklenen ürünler listesine yeni ürünü ekle
+  cartItems.push(productId);
+
+  // Güncellenmiş sepet listesini localStorage'e kaydet
+  localStorage.setItem('cartItems', JSON.stringify(cartItems));
+
+}
+
+let productId = new URLSearchParams(window.location.search).get("id");
+function cardPage(productId){
+  localStorage.setItem('cartItems', JSON.stringify(cartItems));
+
+  window.location.href = `cart.html?id=${productId}`;
 }
 
 
 
 
 
-// Flash Sale
+
+
 
 const day = document.querySelector(".day");
 const hour = document.querySelector(".hour");
@@ -141,47 +192,6 @@ updateTime();
 
 setInterval(updateTime, 1000);
 
-const cardProductContainer = document.querySelector(".card-list--body");
-// console.log(cardProductContainer);
 
-// function addCardProduct(img, title, price) {
-//   // console.log(img, title, price)
-//   cardProductContainer.innerHTML += `
-//     <li class="card-list--item">
-//               <div class="list-div common__display">
-//                 <div class="list-div--header list-div--item common__display">
-//                   <img src=${img} alt=${title} />
-//                   <p class="common-poppins__text">${title}</p>
-//                 </div>
-//                 <div class="list-div--price list-div--item display__com">
-//                   <p class="common-poppins__text">$${price}</p>
-//                 </div>
-//                 <div class="list-div--count list-div--item display__com">
-//                   <div class="count-div display__com">
-//                     <p class="common-poppins__text">01</p>
-//                     <div class="count-upDown">
-//                       <i class="fa-solid fa-chevron-up"></i>
-//                       <i class="fa-solid fa-chevron-down"></i>
-//                     </div>
-//                   </div>
-//                 </div>
-//                 <div class="list-div--subtotal list-div--item display__com">
-//                   <p class="common-poppins__text">$650</p>
-//                 </div>
-//               </div>
-//             </li>
-//     `;
-// }
 
-// const searchInput = document.querySelector(".search-input");
-// searchInput.addEventListener("input", function (e) {
-//   let resultData = allData.filter(function (product) {
-//     let productTitle = product.title.toLowerCase();
-//     // console.log(productTitle);
-//     let searchTitleInput = e.target.value.toLowerCase();
-//     // console.log(searchTitleInput);
-//     // window.location.href = "#carditems";
-//     return productTitle.includes(searchTitleInput);
-//   });
-//   repeatProduct(resultData);
-// });
+

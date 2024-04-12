@@ -1056,9 +1056,11 @@ background: var(--color-white,#fff);
   margin: auto;
 }
 .list-div--item {
-  width: 14%;
+  width:100%;
   height: 100%;
-  line-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 .fa-chevron-up,
@@ -1526,6 +1528,7 @@ background: var(--color-white,#fff);
   display: flex;
   align-items: center;
   gap: 15px;
+  color: var(--color-black,#000);
 }
 .productDetail-common--container {
   width: 100%;
@@ -1534,6 +1537,12 @@ background: var(--color-white,#fff);
 .card-body {
   width: 100%;
   height: 80%;
+}
+.list-div--header>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 .browse-card {
   width: 170px;
