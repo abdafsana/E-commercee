@@ -45,7 +45,7 @@ function displayList(items, rows_per_page, page) {
       <img class="card-img" src=${item.images[0]} alt="cart image" />
       </a>
     </div>
-    <div class="card-item--footer display__com" onclick="addToCart(${item.id})">
+    <div class="card-item--footer display__com" onclick="addToCart(${item.id},'${item.images[0]}','${item.price}','${item.title}')">
     <i class="fa-solid fa-cart-shopping"></i>
     <p class="common-poppins card--cartIcon">Add To Cart</p>
     </div>
@@ -129,34 +129,37 @@ function filterList(list) {
 
 
 
+let cartItemsBasket = JSON.parse(localStorage.getItem("cartItemsBasket")) || [];
 
-function addToCart(productId) {
-    const cardCount = document.querySelector(".cart-count");
-  cardCount.style.opacity = "1";
-
+function addToCart(id,images,title, price) {
   const cartCountElement = document.getElementById('cart-count');
+  cartCountElement.style.opacity = "1";
+
+        let basketProducts={
+          productId:id,
+          productImg:images,
+          productTitle:title,
+          productPrice:price
+        }
+        cartItemsBasket.push(basketProducts)
+        console.log(cartItemsBasket)
+        localStorage.setItem('cartItemsBasket', JSON.stringify(cartItemsBasket));
+
+
   let currentCount = parseInt(cartCountElement.textContent) || 0;
   currentCount++;
   
   cartCountElement.textContent = currentCount;
-
-  // Ürün ID'sini sepete eklemek için
-  let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
-
-  // Sepete eklenen ürünler listesine yeni ürünü ekle
-  cartItems.push(productId);
-
-  // Güncellenmiş sepet listesini localStorage'e kaydet
-  localStorage.setItem('cartItems', JSON.stringify(cartItems));
-
+        localStorage.setItem("basketCount",currentCount)
+        // // Ürün ID'sini sepete eklemek için
+        // let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+        
+  // cartItems.push(id);
+  
+  // localStorage.setItem('cartItems', JSON.stringify(cartItems));
+  
 }
 
-let productId = new URLSearchParams(window.location.search).get("id");
-function cardPage(productId){
-  localStorage.setItem('cartItems', JSON.stringify(cartItems));
-
-  window.location.href = `cart.html?id=${productId}`;
-}
 
 
 

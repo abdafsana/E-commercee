@@ -1,4 +1,16 @@
+let nvbruser=document.querySelector(".navbar-user");
+
 document.addEventListener("DOMContentLoaded", function() {
+  const loggedInUser = localStorage.getItem("loggedInUser");
+  
+  if (loggedInUser) {
+    // Kullanıcı giriş yapmışsa, navbar'ı göster
+    const nvbruser = document.querySelector(".navbar-user");
+    if (nvbruser) {
+      nvbruser.style.display = "block";
+      localStorage.getItem("lo")
+    }
+  }
 const logbtn= document.querySelector(".login-button");
   logbtn.addEventListener("click", function (e) {
     e.preventDefault();
@@ -12,8 +24,6 @@ function getUserData() {
     .then((data) => checkUser(data));
 }
 function checkUser(users) {
-  let nvbruser=document.querySelector(".navbar-user");
-  console.log(nvbruser);
   const emailorPhoneInput = document.querySelector(".emailOrPhone-input").value;
   const passwordInput = document.querySelector(".password-input").value;
   if(emailorPhoneInput!=null){
@@ -23,9 +33,6 @@ function checkUser(users) {
       window.location.href="./index.html";
     }
   }
-  nvbruser.style.display="block !important";
   document.querySelector(".emailOrPhone-input").value = "";
   document.querySelector(".password-input").value = "";
 }
-// let nvbruser=document.querySelector(".navbar-user");
-// console.log(nvbruser)

@@ -89,11 +89,11 @@ function repeatDetailProduct(product) {
                 <i class="fa-solid fa-plus"></i>
               </div>
             </div>
-            <button
-              class="product-btn buy-btn form-button__create poppins-font500"
+            <a href="./checkOut.html"
+              class="product-btn buy-btn form-button__create poppins-font500 display__com"
             >
               Buy Now
-            </button>
+            </a>
             <div class="product-heart display__com">
               <i class="fa-regular fa-heart"></i>
             </div>
