@@ -11,7 +11,10 @@ async function getProducts() {
     const data = await res.json();
     allData = data;
     page_count = Math.ceil(allData.length / rows_per_page);
+    page_count1 = Math.ceil(allData.length / rows_per_page1);
     displayList(allData, rows_per_page, current_page);
+    bestSellingProduct(allData,rows_per_page1, current_page1)
+    flashProduct(allData,rows_per_page1, current_page1)
 }
 
 getProducts();
@@ -209,8 +212,134 @@ var swiper = new Swiper(".mySwiper", {
   mousewheel: true,
   keyboard: true,
 });
-// localStorage.getItem("loggedInUser")
-// const navbarUser = document.querySelector(".navbar-user");
-// if (navbarUser) {
-//   navbarUser.style.display = "block";
-// }
+
+
+let current_page1 = 1;
+let rows_per_page1 = 4;
+let page_count1;
+// Best Selling Product
+const bestSelling=document.querySelector(".bestSelling-card");
+function bestSellingProduct(items,rows_per_page1,page){
+  bestSelling.innerHTML="";
+  let start = (page - 1) * rows_per_page;
+  let end = start + rows_per_page1;
+  let paginatedItems = items.slice(start, end);
+  paginatedItems.forEach((product)=>{
+    bestSelling.innerHTML +=` <div class="card-item">
+    <div class="card-item--body display__between">
+      <div class="cardItem-header">
+        <div class="card-percantage"></div>
+        <div class="card-Icons">
+          <div class="card-Icon display__com" onclick="wishList(${product.id},'${product.images[0]}','${product.price}','${product.title}')">
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="card-Icon display__com">
+          <i class="fa-regular fa-eye"></i>
+          </div>
+        </div>
+      </div>
+      <a href="./productDetail.html">
+      <img src=${product.images[0]} alt=${product.title} />
+      </a>
+    </div>
+    <div class="card-item--footer display__com" onclick="addToCart(${product.id},'${product.images[0]}','${product.price}','${product.title}')">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <p class="common-poppins  card--cartIcon">Add To Cart</p>
+    </div>
+    <div class="card-item--minifooter">
+      <p class="poppins-font500 card-title">${product.title}</p>
+      <p class="poppins-font500 wishList-miniFoot">$${product.price}</p>
+      <div class="star-icons">
+        <div class="star-icon--div">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+      </div>
+    </div>              
+  </div>`
+  })
+}
+
+
+// Flash Product
+const flashProductList=document.querySelector(".today-card")
+function flashProduct(items, rows_per_page1, page) {
+  flashProductList.innerHTML = "";
+
+
+  items.sort((a, b) => b.price - a.price);
+
+  let start = (page - 1) * rows_per_page1;
+  let end = start + rows_per_page1;
+  let paginatedItems = items.slice(start, end);
+
+  paginatedItems.forEach((product) => {
+    flashProductList.innerHTML += ` 
+      <div class="card-item">
+        <div class="card-item--body display__between">
+          <div class="cardItem-header">
+            <div class="card-percantage"></div>
+            <div class="card-Icons">
+              <div class="card-Icon display__com" onclick="wishList(${product.id},'${product.images[0]}','${product.price}','${product.title}')">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="card-Icon display__com">
+                <i class="fa-regular fa-eye"></i>
+              </div>
+            </div>
+          </div>
+          <a href="./productDetail.html">
+            <img src=${product.images[0]} alt=${product.title} />
+          </a>
+        </div>
+        <div class="card-item--footer display__com" onclick="addToCart(${product.id},'${product.images[0]}','${product.price}','${product.title}')">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <p class="common-poppins  card--cartIcon">Add To Cart</p>
+      </div>
+        <div class="card-item--minifooter">
+          <p class="poppins-font500 card-title">${product.title}</p>
+          <p class="poppins-font500 wishList-miniFoot">$${product.price}</p>
+          <div class="star-icons">
+            <div class="star-icon--div">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </div>              
+      </div>`;
+  });
+}
+
+
+// Next Page1
+function nextPage1() {
+  if (current_page1 < page_count1) {
+    current_page1++;
+    bestSellingProduct(allData, rows_per_page1, current_page1);
+  }
+}
+function nextPage2() {
+  if (current_page1 < page_count1) {
+    current_page1++;
+    flashProduct(allData, rows_per_page1, current_page1);
+  }
+}
+// Prev Page1
+function prevPage1() {
+  if (current_page1 > 1) {
+    current_page1--;
+    bestSellingProduct(allData, rows_per_page1, current_page1);
+  }
+}
+function prevPage2() {
+  if (current_page1 > 1) {
+    current_page1--;
+    flashProduct(allData, rows_per_page1, current_page1);
+  }
+}
