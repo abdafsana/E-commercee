@@ -7,15 +7,11 @@ let rows_per_page = 8;
 let page_count;
 
 async function getProducts() {
-  try {
     const res = await fetch("http://localhost:3000/product");
     const data = await res.json();
     allData = data;
     page_count = Math.ceil(allData.length / rows_per_page);
     displayList(allData, rows_per_page, current_page);
-  } catch (error) {
-    console.error("Error fetching products:", error);
-  }
 }
 
 getProducts();
@@ -89,7 +85,7 @@ fetch("http://localhost:3000/category")
 // Create Category
 function filterList(list) {
   list.forEach((item) => {
-    filter.innerHTML += `<li class="filter-list--item common-poppins__text"><a href="#">${item.name}</a></li>`;
+    filter.innerHTML += `<li class="filter-list--item common-poppins__text"><a href="./error.html">${item.name}</a></li>`;
   });
 }
 
