@@ -53,6 +53,12 @@
       "username": "Afsana Abdullayeva",
       "password": "nvbruser",
       "emailOrPhone": "afsana@123gmail.com"
+    },
+    {
+      "id": "966e",
+      "username": "Rehim Rehimli",
+      "password": "rehimrehimli@12",
+      "emailOrPhone": "rehimrehimli@12gmail.com"
     }
   ],
   "product": [
@@ -63,7 +69,10 @@
       "price": "2834",
       "discount": "$2969",
       "percent": "11%",
-      "color": ["#2D383A", "#C5C9C7"],
+      "color": [
+        "#2D383A",
+        "#C5C9C7"
+      ],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -88,7 +97,10 @@
       "price": "666",
       "discount": "$693",
       "percent": "5%",
-      "color": ["#2D383A", "#C5C9C7"],
+      "color": [
+        "#2D383A",
+        "#C5C9C7"
+      ],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -114,7 +126,10 @@
       "discount": "$443",
       "stock": "inStock",
       "percent": "5%",
-      "color": ["#2D383A", "#C5C9C7"],
+      "color": [
+        "#2D383A",
+        "#C5C9C7"
+      ],
       "size": [],
       "images": [
         "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/n/e/new-project-2023-03-28t173128.388-1_png.png",
@@ -138,7 +153,12 @@
       "price": "467",
       "discount": "$549",
       "percent": "12%",
-      "color": ["#EBE0F4", "#2D383A", "#C5C9C7", "#95B0E8"],
+      "color": [
+        "#EBE0F4",
+        "#2D383A",
+        "#C5C9C7",
+        "#95B0E8"
+      ],
       "size": [],
       "stock": "notStock",
       "images": [
@@ -164,8 +184,15 @@
       "discount": "",
       "stock": "notStock",
       "percent": " ",
-      "color": ["#EBE0F4", "#FFF,#95B0E8"],
-      "size": ["XS", "S", "L"],
+      "color": [
+        "#EBE0F4",
+        "#FFF,#95B0E8"
+      ],
+      "size": [
+        "XS",
+        "S",
+        "L"
+      ],
       "images": [
         "https://cdn.dsmcdn.com/ty1244/product/media/images/prod/SPM/PIM/20240405/20/36116653-cf48-32d3-ae6e-76eaa5e4d36f/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1243/product/media/images/prod/SPM/PIM/20240405/20/01520598-a2df-309d-8fa5-9f264eb83337/1_org_zoom.jpg",
@@ -188,8 +215,17 @@
       "price": "79",
       "discount": "",
       "percent": "",
-      "color": ["#EBE0F4", "#FFF,#95B0E8", "#FFFCF4"],
-      "size": ["XS", "S", "L", "XL"],
+      "color": [
+        "#EBE0F4",
+        "#FFF,#95B0E8",
+        "#FFFCF4"
+      ],
+      "size": [
+        "XS",
+        "S",
+        "L",
+        "XL"
+      ],
       "stock": "inStock",
       "images": [
         "https://cdn.dsmcdn.com/mnresize/620/820/ty997/product/media/images/prod/SPM/PIM/20230912/20/b4604798-f42c-3e82-b4ed-96b90eec5af9/1_org_zoom.jpg",
@@ -213,8 +249,15 @@
       "price": "25",
       "discount": "",
       "percent": "",
-      "color": ["#7F7F7F", "#FFFCF4"],
-      "size": ["XS", "L", "XL"],
+      "color": [
+        "#7F7F7F",
+        "#FFFCF4"
+      ],
+      "size": [
+        "XS",
+        "L",
+        "XL"
+      ],
       "stock": "inStock",
       "images": [
         "https://cdn.dsmcdn.com/mnresize/620/820/ty843/product/media/images/20230423/16/330908735/907662936/1/1_org_zoom.jpg",
@@ -237,8 +280,16 @@
       "price": "79",
       "discount": "",
       "percent": "",
-      "color": ["#7F7F7F", "#FFFCF4", "#000"],
-      "size": ["XS", "L", "XL"],
+      "color": [
+        "#7F7F7F",
+        "#FFFCF4",
+        "#000"
+      ],
+      "size": [
+        "XS",
+        "L",
+        "XL"
+      ],
       "stock": "inStock",
       "images": [
         "https://cdn.dsmcdn.com/mnresize/620/820/ty900/product/media/images/20230523/13/356359604/413166374/2/2_org_zoom.jpg",
@@ -262,8 +313,17 @@
       "price": "98",
       "discount": "",
       "percent": "",
-      "color": ["#db4444", "#FFFCF4", "#000"],
-      "size": ["XS", "L", "XL", "S"],
+      "color": [
+        "#db4444",
+        "#FFFCF4",
+        "#000"
+      ],
+      "size": [
+        "XS",
+        "L",
+        "XL",
+        "S"
+      ],
       "stock": "inStock",
       "images": [
         "https://cdn.dsmcdn.com/mnresize/620/820/ty1216/product/media/images/prod/SPM/PIM/20240320/10/5fd28c92-f5eb-3257-9ed1-ec372756547f/1_org_zoom.jpg",
@@ -287,8 +347,17 @@
       "price": "61",
       "discount": "",
       "percent": "",
-      "color": ["#db4444", "#566E7E", "#000"],
-      "size": ["XS", "L", "XL", "S"],
+      "color": [
+        "#db4444",
+        "#566E7E",
+        "#000"
+      ],
+      "size": [
+        "XS",
+        "L",
+        "XL",
+        "S"
+      ],
       "stock": "inStock",
       "images": [
         "https://cdn.dsmcdn.com/mnresize/620/820/ty1028/product/media/images/prod/SPM/PIM/20231101/11/4f4dd5a1-d6bf-34b8-8777-1d5da65f92d9/1_org_zoom.jpg",
@@ -312,8 +381,13 @@
       "price": "35",
       "discount": "",
       "percent": "",
-      "color": ["#FA222A"],
-      "size": ["XS", "L"],
+      "color": [
+        "#FA222A"
+      ],
+      "size": [
+        "XS",
+        "L"
+      ],
       "stock": "inStock",
       "images": [
         "https://m.media-amazon.com/images/I/51NoeqEdfqL._AC_SX679_.jpg",
@@ -337,8 +411,17 @@
       "price": "58",
       "discount": "",
       "percent": "",
-      "color": ["#000", "#fff", "#B7B9B9"],
-      "size": ["XS", "L", "XL", "S"],
+      "color": [
+        "#000",
+        "#fff",
+        "#B7B9B9"
+      ],
+      "size": [
+        "XS",
+        "L",
+        "XL",
+        "S"
+      ],
       "stock": "notStock",
       "images": [
         "https://cdn.dsmcdn.com/mnresize/620/820/ty1009/product/media/images/prod/SPM/PIM/20231005/14/121c1f0e-819e-3be3-b61e-012900438408/1_org_zoom.jpg",
@@ -362,7 +445,9 @@
       "price": "28",
       "discount": "",
       "percent": "",
-      "color": ["#FFF4D4"],
+      "color": [
+        "#FFF4D4"
+      ],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -387,7 +472,9 @@
       "price": "334",
       "discount": "",
       "percent": "",
-      "color": ["#fff"],
+      "color": [
+        "#fff"
+      ],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -412,7 +499,9 @@
       "price": "1202",
       "discount": "$1300",
       "percent": "50%",
-      "color": ["#000"],
+      "color": [
+        "#000"
+      ],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -436,7 +525,9 @@
       "price": "124",
       "discount": "",
       "percent": "",
-      "color": ["#999999"],
+      "color": [
+        "#999999"
+      ],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -460,7 +551,9 @@
       "price": "606",
       "discount": "",
       "percent": "",
-      "color": ["#999999"],
+      "color": [
+        "#999999"
+      ],
       "size": [],
       "stock": "notStock",
       "images": [
@@ -485,7 +578,9 @@
       "price": "1205",
       "discount": "",
       "percent": "",
-      "color": ["#74ADD3"],
+      "color": [
+        "#74ADD3"
+      ],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -510,7 +605,9 @@
       "price": "673",
       "discount": "",
       "percent": "",
-      "color": ["#999999"],
+      "color": [
+        "#999999"
+      ],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -536,7 +633,9 @@
       "price": "349",
       "discount": "",
       "percent": "",
-      "color": ["#000"],
+      "color": [
+        "#000"
+      ],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -561,7 +660,10 @@
       "price": "345",
       "discount": "",
       "percent": "",
-      "color": ["#000", "#BCC6CC"],
+      "color": [
+        "#000",
+        "#BCC6CC"
+      ],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -586,7 +688,11 @@
       "price": "378",
       "discount": "",
       "percent": "",
-      "color": ["#000", "#BCC6CC", "#126FD2"],
+      "color": [
+        "#000",
+        "#BCC6CC",
+        "#126FD2"
+      ],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -834,7 +940,10 @@
       "price": "1202",
       "discount": "",
       "percent": "",
-      "color": ["#CDBDA0", "#fff"],
+      "color": [
+        "#CDBDA0",
+        "#fff"
+      ],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -859,7 +968,10 @@
       "price": "35",
       "discount": "",
       "percent": "",
-      "color": ["#FFE44A", "#fff"],
+      "color": [
+        "#FFE44A",
+        "#fff"
+      ],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -884,7 +996,10 @@
       "price": "61",
       "discount": "",
       "percent": "",
-      "color": ["#99E5EB", "#fff"],
+      "color": [
+        "#99E5EB",
+        "#fff"
+      ],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -909,7 +1024,11 @@
       "price": "693",
       "discount": "$722",
       "percent": "35%",
-      "color": ["#FFD4E2", "#D47EA3", "#C3F0F4"],
+      "color": [
+        "#FFD4E2",
+        "#D47EA3",
+        "#C3F0F4"
+      ],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -1009,7 +1128,10 @@
       "price": "693",
       "discount": "",
       "percent": "",
-      "color": ["#FCEFD8", "#fff"],
+      "color": [
+        "#FCEFD8",
+        "#fff"
+      ],
       "size": [],
       "stock": "inStock",
       "images": [

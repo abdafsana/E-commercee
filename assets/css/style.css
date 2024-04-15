@@ -1648,9 +1648,9 @@ ul > li {
   width: 100%;
   height: 80%;
 }
-.list-div--header > img {
-  /* width: 100%;
-  height: 100%; */
+.list-div--item > img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: 50% 50%;
 }
