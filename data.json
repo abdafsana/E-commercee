@@ -31,9 +31,27 @@
       "emailOrPhone": "anaxanim12@gmail.com"
     },
     {
-      "id": "35e9",
+      "id": "588a",
       "username": "Afsana Abdullayeva",
       "password": "afsana@123",
+      "emailOrPhone": "afsana@123gmail.com"
+    },
+    {
+      "id": "965c",
+      "username": "Afsana Abdullayeva",
+      "password": "afsana@123",
+      "emailOrPhone": "afsana@123gmail.com"
+    },
+    {
+      "id": "a2e5",
+      "username": "Afsana Abdullayeva",
+      "password": "nvbruser",
+      "emailOrPhone": "afsana@123gmail.com"
+    },
+    {
+      "id": "b66b",
+      "username": "Afsana Abdullayeva",
+      "password": "nvbruser",
       "emailOrPhone": "afsana@123gmail.com"
     }
   ],
@@ -42,12 +60,10 @@
       "id": "1",
       "title": "Apple MacBook Pro 16",
       "description": "Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019",
-      "price": "2969",
-      "discount": "$2834",
-      "color": [
-        "#2D383A",
-        "#C5C9C7"
-      ],
+      "price": "2834",
+      "discount": "$2969",
+      "percent": "11%",
+      "color": ["#2D383A", "#C5C9C7"],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -69,12 +85,10 @@
       "id": "2",
       "title": "Sleek White & Orange Wireless ",
       "description": "Elevate your gaming experience with this state-of-the-art wireless controller, featuring a crisp white base with vibrant orange accents. Designed for precision play, the ergonomic shape and responsive buttons provide maximum comfort and control for endless hours of gameplay. Compatible with multiple gaming platforms, this controller is a must-have for any serious gamer looking to enhance their setup.",
-      "price": "693",
-      "discount": "$666",
-      "color": [
-        "#2D383A",
-        "#C5C9C7"
-      ],
+      "price": "666",
+      "discount": "$693",
+      "percent": "5%",
+      "color": ["#2D383A", "#C5C9C7"],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -96,13 +110,11 @@
       "id": "19",
       "title": "Sleek Wireless Headphone & Inked Earbud Set",
       "description": "Experience the fusion of style and sound with this sophisticated audio set featuring a pair of sleek, white wireless headphones offering crystal-clear sound quality and over-ear comfort. The set also includes a set of durable earbuds, perfect for an on-the-go lifestyle. Elevate your music enjoyment with this versatile duo, designed to cater to all your listening needs.",
-      "price": "443",
-      "discount": "$403",
+      "price": "403",
+      "discount": "$443",
       "stock": "inStock",
-      "color": [
-        "#2D383A",
-        "#C5C9C7"
-      ],
+      "percent": "5%",
+      "color": ["#2D383A", "#C5C9C7"],
       "size": [],
       "images": [
         "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/n/e/new-project-2023-03-28t173128.388-1_png.png",
@@ -123,14 +135,10 @@
       "id": "4",
       "title": "iPhone 14 256 GB Purple",
       "description": "An apple mobile which is nothing like apple",
-      "price": "549",
-      "discount": "$467",
-      "color": [
-        "#EBE0F4",
-        "#2D383A",
-        "#C5C9C7",
-        "#95B0E8"
-      ],
+      "price": "467",
+      "discount": "$549",
+      "percent": "12%",
+      "color": ["#EBE0F4", "#2D383A", "#C5C9C7", "#95B0E8"],
       "size": [],
       "stock": "notStock",
       "images": [
@@ -155,19 +163,14 @@
       "price": "88",
       "discount": "",
       "stock": "notStock",
-      "color": [
-        "#EBE0F4",
-        "#FFF,#95B0E8"
-      ],
-      "size": [
-        "XS",
-        "S",
-        "L"
-      ],
+      "percent": " ",
+      "color": ["#EBE0F4", "#FFF,#95B0E8"],
+      "size": ["XS", "S", "L"],
       "images": [
-        "https://cdn.dsmcdn.com/mnresize/620/820/ty1224/product/media/images/prod/SPM/PIM/20240325/02/262dca33-4504-3af1-bdfc-49fdb9b3914c/1_org_zoom.jpg",
-        "https://cdn.dsmcdn.com/mnresize/620/820/ty1224/product/media/images/prod/SPM/PIM/20240325/02/6855780e-e229-3c4b-9e5e-9468b893cd16/1_org_zoom.jpg",
-        "https://cdn.dsmcdn.com/mnresize/620/820/ty1224/product/media/images/prod/SPM/PIM/20240325/02/96605789-8b40-3df9-b1df-c0e37b71791e/1_org_zoom.jpg"
+        "https://cdn.dsmcdn.com/ty1244/product/media/images/prod/SPM/PIM/20240405/20/36116653-cf48-32d3-ae6e-76eaa5e4d36f/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1243/product/media/images/prod/SPM/PIM/20240405/20/01520598-a2df-309d-8fa5-9f264eb83337/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1243/product/media/images/prod/SPM/PIM/20240405/20/e00e7c1a-db49-3c41-9856-4d2757677d05/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1244/product/media/images/prod/SPM/PIM/20240405/20/af36996d-7552-352b-bc89-53bfe6985cde/1_org_zoom.jpg"
       ],
       "creationAt": "2024-03-28T09:38:03.000Z",
       "updatedAt": "2024-03-28T14:54:21.000Z",
@@ -184,17 +187,9 @@
       "description": "Elevate your casual wardrobe with our Classic Black Hooded Sweatshirt. Made from high-quality, soft fabric that ensures comfort and durability, this hoodie features a spacious kangaroo pocket and an adjustable drawstring hood. Its versatile design makes it perfect for a relaxed day at home or a casual outing.",
       "price": "79",
       "discount": "",
-      "color": [
-        "#EBE0F4",
-        "#FFF,#95B0E8",
-        "#FFFCF4"
-      ],
-      "size": [
-        "XS",
-        "S",
-        "L",
-        "XL"
-      ],
+      "percent": "",
+      "color": ["#EBE0F4", "#FFF,#95B0E8", "#FFFCF4"],
+      "size": ["XS", "S", "L", "XL"],
       "stock": "inStock",
       "images": [
         "https://cdn.dsmcdn.com/mnresize/620/820/ty997/product/media/images/prod/SPM/PIM/20230912/20/b4604798-f42c-3e82-b4ed-96b90eec5af9/1_org_zoom.jpg",
@@ -217,15 +212,9 @@
       "description": "Discover the perfect blend of style and comfort with our Classic Comfort Fit Joggers. These versatile black joggers feature a soft elastic waistband with an adjustable drawstring, two side pockets, and ribbed ankle cuffs for a secure fit. Made from a lightweight and durable fabric, they are ideal for both active days and relaxed lounging.",
       "price": "25",
       "discount": "",
-      "color": [
-        "#7F7F7F",
-        "#FFFCF4"
-      ],
-      "size": [
-        "XS",
-        "L",
-        "XL"
-      ],
+      "percent": "",
+      "color": ["#7F7F7F", "#FFFCF4"],
+      "size": ["XS", "L", "XL"],
       "stock": "inStock",
       "images": [
         "https://cdn.dsmcdn.com/mnresize/620/820/ty843/product/media/images/20230423/16/330908735/907662936/1/1_org_zoom.jpg",
@@ -247,16 +236,9 @@
       "description": "Experience the perfect blend of comfort and style with our Classic Comfort Drawstring Joggers. Designed for a relaxed fit, these joggers feature a soft, stretchable fabric, convenient side pockets, and an adjustable drawstring waist with elegant gold-tipped detailing. Ideal for lounging or running errands, these pants will quickly become your go-to for effortless, casual wear.",
       "price": "79",
       "discount": "",
-      "color": [
-        "#7F7F7F",
-        "#FFFCF4",
-        "#000"
-      ],
-      "size": [
-        "XS",
-        "L",
-        "XL"
-      ],
+      "percent": "",
+      "color": ["#7F7F7F", "#FFFCF4", "#000"],
+      "size": ["XS", "L", "XL"],
       "stock": "inStock",
       "images": [
         "https://cdn.dsmcdn.com/mnresize/620/820/ty900/product/media/images/20230523/13/356359604/413166374/2/2_org_zoom.jpg",
@@ -279,17 +261,9 @@
       "description": "Experience ultimate comfort with our red jogger sweatpants, perfect for both workout sessions and lounging around the house. Made with soft, durable fabric, these joggers feature a snug waistband, adjustable drawstring, and practical side pockets for functionality. Their tapered design and elastic cuffs offer a modern fit that keeps you looking stylish on the go.",
       "price": "98",
       "discount": "",
-      "color": [
-        "#db4444",
-        "#FFFCF4",
-        "#000"
-      ],
-      "size": [
-        "XS",
-        "L",
-        "XL",
-        "S"
-      ],
+      "percent": "",
+      "color": ["#db4444", "#FFFCF4", "#000"],
+      "size": ["XS", "L", "XL", "S"],
       "stock": "inStock",
       "images": [
         "https://cdn.dsmcdn.com/mnresize/620/820/ty1216/product/media/images/prod/SPM/PIM/20240320/10/5fd28c92-f5eb-3257-9ed1-ec372756547f/1_org_zoom.jpg",
@@ -312,22 +286,15 @@
       "description": "Step out in style with this sleek navy blue baseball cap. Crafted from durable material, it features a smooth, structured design and an adjustable strap for the perfect fit. Protect your eyes from the sun and complement your casual looks with this versatile and timeless accessory.",
       "price": "61",
       "discount": "",
-      "color": [
-        "#db4444",
-        "#566E7E",
-        "#000"
-      ],
-      "size": [
-        "XS",
-        "L",
-        "XL",
-        "S"
-      ],
+      "percent": "",
+      "color": ["#db4444", "#566E7E", "#000"],
+      "size": ["XS", "L", "XL", "S"],
       "stock": "inStock",
       "images": [
         "https://cdn.dsmcdn.com/mnresize/620/820/ty1028/product/media/images/prod/SPM/PIM/20231101/11/4f4dd5a1-d6bf-34b8-8777-1d5da65f92d9/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/mnresize/620/820/ty1027/product/media/images/prod/SPM/PIM/20231101/11/0cebd21b-45c2-340d-abe8-1ebaef856245/1_org_zoom.jpg",
-        "https://cdn.dsmcdn.com/mnresize/620/820/ty1028/product/media/images/prod/SPM/PIM/20231101/11/2c64d39c-812b-3bb9-a5cb-65603e6b59c9/1_org_zoom.jpg"
+        "https://cdn.dsmcdn.com/mnresize/620/820/ty1028/product/media/images/prod/SPM/PIM/20231101/11/2c64d39c-812b-3bb9-a5cb-65603e6b59c9/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty569/product/media/images/20221018/1/196076413/599221523/2/2_org_zoom.jpg"
       ],
       "creationAt": "2024-03-28T09:38:03.000Z",
       "updatedAt": "2024-03-28T09:38:03.000Z",
@@ -344,18 +311,15 @@
       "description": "Elevate your casual wardrobe with this timeless red baseball cap. Crafted from durable fabric, it features a comfortable fit with an adjustable strap at the back, ensuring one size fits all. Perfect for sunny days or adding a sporty touch to your outfit.",
       "price": "35",
       "discount": "",
-      "color": [
-        "#FA222A"
-      ],
-      "size": [
-        "XS",
-        "L"
-      ],
+      "percent": "",
+      "color": ["#FA222A"],
+      "size": ["XS", "L"],
       "stock": "inStock",
       "images": [
         "https://m.media-amazon.com/images/I/51NoeqEdfqL._AC_SX679_.jpg",
         "https://m.media-amazon.com/images/I/612JU-zh7kL._AC_SX679_.jpg",
-        "https://m.media-amazon.com/images/I/61D444WzMoL._AC_SX679_.jpg"
+        "https://m.media-amazon.com/images/I/61D444WzMoL._AC_SX679_.jpg",
+        "https://cdn.dsmcdn.com/ty414/product/media/images/20220430/16/100762067/464201481/2/2_org_zoom.jpg"
       ],
       "creationAt": "2024-03-28T09:38:03.000Z",
       "updatedAt": "2024-03-28T09:38:03.000Z",
@@ -372,22 +336,15 @@
       "description": "Elevate your casual wear with this timeless black baseball cap. Made with high-quality, breathable fabric, it features an adjustable strap for the perfect fit. Whether you’re out for a jog or just running errands, this cap adds a touch of style to any outfit.",
       "price": "58",
       "discount": "",
-      "color": [
-        "#000",
-        "#fff",
-        "#B7B9B9"
-      ],
-      "size": [
-        "XS",
-        "L",
-        "XL",
-        "S"
-      ],
+      "percent": "",
+      "color": ["#000", "#fff", "#B7B9B9"],
+      "size": ["XS", "L", "XL", "S"],
       "stock": "notStock",
       "images": [
         "https://cdn.dsmcdn.com/mnresize/620/820/ty1009/product/media/images/prod/SPM/PIM/20231005/14/121c1f0e-819e-3be3-b61e-012900438408/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/mnresize/620/820/ty1009/product/media/images/prod/SPM/PIM/20231005/14/b46ed678-6f7c-3af7-8c30-b5c5f60b8ca0/1_org_zoom.jpg",
-        "https://cdn.dsmcdn.com/mnresize/620/820/ty1008/product/media/images/prod/SPM/PIM/20231005/14/c90c9502-2dd7-3a6f-aed6-03333fbc509e/1_org_zoom.jpg"
+        "https://cdn.dsmcdn.com/mnresize/620/820/ty1008/product/media/images/prod/SPM/PIM/20231005/14/c90c9502-2dd7-3a6f-aed6-03333fbc509e/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty978/product/media/images/20230804/16/400190523/986365155/1/1_org_zoom.jpg"
       ],
       "creationAt": "2024-03-28T09:38:03.000Z",
       "updatedAt": "2024-03-28T09:38:03.000Z",
@@ -404,9 +361,8 @@
       "description": "Experience superior sound quality with our Sleek Comfort-Fit Over-Ear Headphones, designed for prolonged use with cushioned ear cups and an adjustable, padded headband. Ideal for immersive listening, whether you're at home, in the office, or on the move. Their durable construction and timeless design provide both aesthetically pleasing looks and long-lasting performance.",
       "price": "28",
       "discount": "",
-      "color": [
-        "#FFF4D4"
-      ],
+      "percent": "",
+      "color": ["#FFF4D4"],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -430,12 +386,12 @@
       "description": "Enhance your morning routine with our sleek 2-slice toaster, featuring adjustable browning controls and a removable crumb tray for easy cleaning. This compact and stylish appliance is perfect for any kitchen, ensuring your toast is always golden brown and delicious.",
       "price": "334",
       "discount": "",
-      "color": [
-        "#fff"
-      ],
+      "percent": "",
+      "color": ["#fff"],
       "size": [],
       "stock": "inStock",
       "images": [
+        "https://irshad.az/cdn-cgi/image/width=540,height=550/storage/products/38847/2eca530d6d1524f0660625ff996255ce.jpg",
         "https://irshad.az/cdn-cgi/image/width=540,height=550/storage/products/38835/7927da291d4c57e6e1210f22f11235e7.jpg",
         "https://irshad.az/cdn-cgi/image/width=540,height=550/storage/products/38835/0a1b4f90175467247fa3749dfa485e44.jpg",
         "https://irshad.az/cdn-cgi/image/width=540,height=550/storage/products/38835/63210377f90cbdddc56498414ed1e6ac.jpg"
@@ -455,9 +411,8 @@
       "description": "Enhance the elegance of your living space with our Sleek Modern Leather Sofa. Designed with a minimalist aesthetic, it features clean lines and a luxurious leather finish. The robust metal legs provide stability and support, while the plush cushions ensure comfort. Perfect for contemporary homes or office waiting areas, this sofa is a statement piece that combines style with practicality.",
       "price": "1202",
       "discount": "$1300",
-      "color": [
-        "#000"
-      ],
+      "percent": "50%",
+      "color": ["#000"],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -480,9 +435,8 @@
       "description": "Elevate your dining room with this sleek Mid-Century Modern dining table, featuring an elegant walnut finish and tapered legs for a timeless aesthetic. Its sturdy wood construction and minimalist design make it a versatile piece that fits with a variety of decor styles. Perfect for intimate dinners or as a stylish spot for your morning coffee.",
       "price": "124",
       "discount": "",
-      "color": [
-        "#999999"
-      ],
+      "percent": "",
+      "color": ["#999999"],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -505,9 +459,8 @@
       "description": "Elevate your dining space with this luxurious table, featuring a sturdy golden metal base with an intricate rod design that provides both stability and chic elegance. The smooth stone top in a sleek round shape offers a robust surface for your dining pleasure. Perfect for both everyday meals and special occasions, this table easily complements any modern or glam decor.",
       "price": "606",
       "discount": "",
-      "color": [
-        "#999999"
-      ],
+      "percent": "",
+      "color": ["#999999"],
       "size": [],
       "stock": "notStock",
       "images": [
@@ -531,9 +484,8 @@
       "description": "Elevate your living space with this beautifully crafted armchair, featuring a sleek wooden frame that complements its vibrant teal upholstery. Ideal for adding a pop of color and contemporary style to any room, this chair provides both superb comfort and sophisticated design. Perfect for reading, relaxing, or creating a cozy conversation nook.",
       "price": "1205",
       "discount": "",
-      "color": [
-        "#74ADD3"
-      ],
+      "percent": "",
+      "color": ["#74ADD3"],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -557,9 +509,8 @@
       "description": "Enhance your dining space with this sleek, contemporary dining table, crafted from high-quality solid wood with a warm finish. Its sturdy construction and minimalist design make it a perfect addition for any home looking for a touch of elegance. Accommodates up to six guests comfortably and includes a striking fruit bowl centerpiece. The overhead lighting is not included.",
       "price": "673",
       "discount": "",
-      "color": [
-        "#999999"
-      ],
+      "percent": "",
+      "color": ["#999999"],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -584,9 +535,8 @@
       "description": "Elevate your home office with our Modern Minimalist Workstation Setup, featuring a sleek wooden desk topped with an elegant computer, stylish adjustable wooden desk lamp, and complimentary accessories for a clean, productive workspace. This setup is perfect for professionals seeking a contemporary look that combines functionality with design.",
       "price": "349",
       "discount": "",
-      "color": [
-        "#000"
-      ],
+      "percent": "",
+      "color": ["#000"],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -610,10 +560,8 @@
       "description": "This modern electric bicycle combines style and efficiency with its unique design and top-notch performance features. Equipped with a durable frame, enhanced battery life, and integrated tech capabilities, it's perfect for the eco-conscious commuter looking to navigate the city with ease.",
       "price": "345",
       "discount": "",
-      "color": [
-        "#000",
-        "#BCC6CC"
-      ],
+      "percent": "",
+      "color": ["#000", "#BCC6CC"],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -637,11 +585,8 @@
       "description": "Experience the thrill of outdoor adventures with our Sleek All-Terrain Go-Kart, featuring a durable frame, comfortable racing seat, and robust, large-tread tires perfect for handling a variety of terrains. Designed for fun-seekers of all ages, this go-kart is an ideal choice for backyard racing or exploring local trails.",
       "price": "378",
       "discount": "",
-      "color": [
-        "#000",
-        "#BCC6CC",
-        "#126FD2"
-      ],
+      "percent": "",
+      "color": ["#000", "#BCC6CC", "#126FD2"],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -665,6 +610,7 @@
       "description": "Indulge in the essence of summer with this vibrant citrus-scented Eau de Parfum. Encased in a sleek glass bottle with a bold orange cap, this fragrance embodies freshness and elegance. Perfect for daily wear, it's an olfactory delight that leaves a lasting, zesty impression.",
       "price": "73",
       "discount": "",
+      "percent": "",
       "color": [],
       "size": [],
       "stock": "inStock",
@@ -688,6 +634,7 @@
       "description": "Enhance your drinkware collection with our sophisticated set of glass tumblers, perfect for serving your favorite beverages. This versatile set includes both clear and subtly tinted glasses, lending a modern touch to any table setting. Crafted with quality materials, these durable tumblers are designed to withstand daily use while maintaining their elegant appeal.",
       "price": "50",
       "discount": "",
+      "percent": "",
       "color": [],
       "size": [],
       "stock": "inStock",
@@ -712,6 +659,7 @@
       "description": "Dry Rose Flower Powder Gulab Powder 50 Gram • Treats Wounds",
       "price": "70",
       "discount": "$78",
+      "percent": "",
       "color": [],
       "size": [],
       "stock": "inStock",
@@ -736,6 +684,7 @@
       "description": "original fauji cereal muesli 250gm box pack original fauji cereals muesli fruit nuts flakes breakfast cereal break fast faujicereals cerels cerel foji fouji",
       "price": "46",
       "discount": "$48.2",
+      "percent": "8%",
       "color": [],
       "size": [],
       "stock": "inStock",
@@ -760,6 +709,7 @@
       "description": "Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
       "price": "14",
       "discount": "$18.04",
+      "percent": "30%",
       "color": [],
       "size": [],
       "stock": "inStock",
@@ -783,6 +733,7 @@
       "description": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
       "price": "46",
       "discount": "$48.68",
+      "percent": "20%",
       "color": [],
       "size": [],
       "stock": "inStock",
@@ -807,6 +758,7 @@
       "description": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
       "price": "40",
       "discount": "$43",
+      "percent": "13%",
       "color": [],
       "size": [],
       "stock": "inStock",
@@ -831,6 +783,7 @@
       "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
       "price": "12",
       "discount": "$21",
+      "percent": "60%",
       "color": [],
       "size": [],
       "stock": "inStock",
@@ -855,6 +808,7 @@
       "description": "1pc Baby Early Educational Intelligent Seven-color Xylophone Wooden Hand Knock Infant Wood Toy For Children",
       "price": "12",
       "discount": "",
+      "percent": "",
       "color": [],
       "size": [],
       "stock": "inStock",
@@ -879,10 +833,8 @@
       "description": "Enhance the elegance of your living space with our Sleek Modern Leather Sofa. Designed with a minimalist aesthetic, it features clean lines and a luxurious leather finish. The robust metal legs provide stability and support, while the plush cushions ensure comfort. Perfect for contemporary homes or office waiting areas, this sofa is a statement piece that combines style with practicality.",
       "price": "1202",
       "discount": "",
-      "color": [
-        "#CDBDA0",
-        "#fff"
-      ],
+      "percent": "",
+      "color": ["#CDBDA0", "#fff"],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -906,10 +858,8 @@
       "description": "1pc Fun Mini Kid's Water Dispenser Toy Kitchen Pretend Play Baby Toy",
       "price": "35",
       "discount": "",
-      "color": [
-        "#FFE44A",
-        "#fff"
-      ],
+      "percent": "",
+      "color": ["#FFE44A", "#fff"],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -933,10 +883,8 @@
       "description": "Macabaka Baby Mobile For Crib, Boho Cloud Mobile Macrame Tassels With Hanging Rotating Toys Nursery Mobiles Decor Infant Bed Decoration For Newborn Boys And Girls, Blue",
       "price": "61",
       "discount": "",
-      "color": [
-        "#99E5EB",
-        "#fff"
-      ],
+      "percent": "",
+      "color": ["#99E5EB", "#fff"],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -960,11 +908,8 @@
       "description": "4pcs/pack Multi-function Elastic Cord Pacifier Clip | Universal Holder Toy Teether Chains | Plastic Clasp For Baby Teething Toys | Great Baby Shower Gift For Both Boys And Girls",
       "price": "693",
       "discount": "$722",
-      "color": [
-        "#FFD4E2",
-        "#D47EA3",
-        "#C3F0F4"
-      ],
+      "percent": "35%",
+      "color": ["#FFD4E2", "#D47EA3", "#C3F0F4"],
       "size": [],
       "stock": "inStock",
       "images": [
@@ -988,6 +933,7 @@
       "description": "Linen Handbag, Color Pattern Gift Bag, Fashion Versatile Simple Linen Tote Bag, Reusable Grocery Shopping Bag, For Festival Back To School,Teachers Gift Ideal Gift,Thank You Gift Idea,Appreciation Gifts,Monogrammed Gifts Bag,Reusable,Teacher Bag,Holiday Shop Bag Educator,Mom Ideal Brides Maid Gifts",
       "price": "443",
       "discount": "$466",
+      "percent": "20%",
       "color": [],
       "size": [],
       "stock": "inStock",
@@ -1012,6 +958,7 @@
       "description": "5pcs/Set Small Pet Toys, Fun And Durable Animal-Shaped Wooden Toys, Suitable For Hamsters And Rabbits To Play And Train",
       "price": "98",
       "discount": "",
+      "percent": "",
       "color": [],
       "size": [],
       "stock": "notStock",
@@ -1034,8 +981,9 @@
       "id": "44",
       "title": "Food and Water Container",
       "description": "Glipet Double Chamber 3's Feeding Food and Water Container 36*21*16 cm",
-      "price": "27",
-      "discount": "$29.36",
+      "price": "103",
+      "discount": "",
+      "percent": "",
       "color": [],
       "size": [],
       "stock": "inStock",
@@ -1059,11 +1007,9 @@
       "title": "Sleek White & Orange Wireless Gaming Controller",
       "description": "Elevate your gaming experience with this state-of-the-art wireless controller, featuring a crisp white base with vibrant orange accents. Designed for precision play, the ergonomic shape and responsive buttons provide maximum comfort and control for endless hours of gameplay. Compatible with multiple gaming platforms, this controller is a must-have for any serious gamer looking to enhance their setup.",
       "price": "693",
-      "discount": "$702",
-      "color": [
-        "#FCEFD8",
-        "#fff"
-      ],
+      "discount": "",
+      "percent": "",
+      "color": ["#FCEFD8", "#fff"],
       "size": [],
       "stock": "inStock",
       "images": [

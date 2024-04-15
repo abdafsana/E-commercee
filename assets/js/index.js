@@ -31,9 +31,9 @@ function displayList(items, rows_per_page, page) {
     cards.innerHTML += `<div class="card-item">
     <div class="card-item--body display__between">
       <div class="cardItem-header">
-        <div class="card-percantage"></div>
+        <div href="#" class="card-percantage display__com">${item.percent}</div>
         <div class="card-Icons">
-          <div class="card-Icon display__com">
+          <div class="card-Icon display__com" onclick="wishList(${item.id},'${item.images[0]}','${item.price}','${item.title}')">
           <i class="fa-regular fa-heart"></i>
         </div>
         <div class="card-Icon display__com">
@@ -80,11 +80,6 @@ function prevPage() {
   }
 }
 
-
-
-
-
-
 fetch("http://localhost:3000/category")
   .then((res) => res.json())
   .then((data) => {
@@ -98,76 +93,55 @@ function filterList(list) {
   });
 }
 
-
-
-
-
-
-
-// Basket add
-// let productId = new URLSearchParams(window.location.search).get("id");
-// function addToCart(productId) { 
-
-//   let cartItems = JSON.parse(localStorage.getItem('cartItems'));
-//   // cartItems.push(productId);
-
-//   const cardCount = document.querySelector(".cart-count");
-//   cardCount.style.opacity = "1";
-
-//   const cartCountElement = document.getElementById('cart-count');
-//   let currentCount = parseInt(cartCountElement.textContent) || 0;
-//   currentCount++;
-  
-//   cartCountElement.textContent = currentCount;
-
-//   localStorage.setItem('cartItems', JSON.stringify(cartItems));
-//   // window.location.href = `cart.html?id=${productId}`;
-  
-// }
-
-
-
-
-
-let cartItemsBasket = JSON.parse(localStorage.getItem("cartItemsBasket")) || [];
-
-function addToCart(id,images,title, price) {
-  const cartCountElement = document.getElementById('cart-count');
-  cartCountElement.style.opacity = "1";
-
-        let basketProducts={
-          productId:id,
-          productImg:images,
-          productTitle:title,
-          productPrice:price
-        }
-        cartItemsBasket.push(basketProducts)
-        console.log(cartItemsBasket)
-        localStorage.setItem('cartItemsBasket', JSON.stringify(cartItemsBasket));
-
+function addToCart(id, images, title, price) {
+  let cartItemsBasket =
+    JSON.parse(localStorage.getItem("cartItemsBasket")) || [];
+  const cartCountElement = document.getElementById("cart-count");
+  let basketProducts = {
+    productId: id,
+    productImg: images,
+    productTitle: title,
+    productPrice: price,
+  };
+  cartItemsBasket.push(basketProducts);
+  console.log(cartItemsBasket);
+  localStorage.setItem("cartItemsBasket", JSON.stringify(cartItemsBasket));
 
   let currentCount = parseInt(cartCountElement.textContent) || 0;
   currentCount++;
-  
+
   cartCountElement.textContent = currentCount;
-        localStorage.setItem("basketCount",currentCount)
-        // // Ürün ID'sini sepete eklemek için
-        // let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
-        
-  // cartItems.push(id);
-  
-  // localStorage.setItem('cartItems', JSON.stringify(cartItems));
-  
+  localStorage.setItem("basketCount", currentCount);
 }
 
+function wishList(id, images, title, price) {
+  let wishListItems =
+    JSON.parse(localStorage.getItem("cartItemsWishList")) || [];
 
+  if (!Array.isArray(wishListItems)) {
+    wishListItems = [];
+  }
 
+  const wishCountElement = document.querySelector(".cart-counts");
+  const wishListProduct = {
+    wishId: id,
+    wishImg: images,
+    wishTitle: title,
+    wishPrice: price,
+  };
 
+  wishListItems.push(wishListProduct);
+  console.log(wishListItems);
 
+  localStorage.setItem("cartItemsWishList", JSON.stringify(wishListItems));
 
+  let wishCount = parseInt(wishCountElement.innerHTML) || 0;
+  wishCount++;
+  wishCountElement.textContent = wishCount;
+  localStorage.setItem("wishCnt", wishCount);
+}
 
-
-
+// Today's Section
 const day = document.querySelector(".day");
 const hour = document.querySelector(".hour");
 const minute = document.querySelector(".minute");
@@ -195,6 +169,52 @@ updateTime();
 
 setInterval(updateTime, 1000);
 
+// Addition Section
+const div_day = document.querySelector(".div-day");
+const div_hour = document.querySelector(".div-hour");
+const div_minute = document.querySelector(".div-minutes");
+const div_second = document.querySelector(".div-seconds");
 
+const AtargetTime = new Date();
+AtargetTime.setDate(AtargetTime.getDate() + 10);
+function updateTimes() {
+  const currentTime = new Date();
+  const timeDifference = AtargetTime - currentTime;
 
+  const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+  const hours = Math.floor(
+    (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  );
+  const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
+  div_day.textContent = days.toString().padStart(2, "0");
+  div_hour.textContent = hours.toString().padStart(2, "0");
+  div_minute.textContent = minutes.toString().padStart(2, "0");
+  div_second.textContent = seconds.toString().padStart(2, "0");
+}
+updateTimes();
+
+setInterval(updateTimes, 1000);
+
+// SWIPER SLIDER
+
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 6,
+  spaceBetween: 30,
+  cssMode: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  mousewheel: true,
+  keyboard: true,
+});
+// localStorage.getItem("loggedInUser")
+// const navbarUser = document.querySelector(".navbar-user");
+// if (navbarUser) {
+//   navbarUser.style.display = "block";
+// }

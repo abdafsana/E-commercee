@@ -4,12 +4,9 @@ const detailContainer = document.querySelector(
 
 async function fetchData() {
   let productId = new URLSearchParams(window.location.search).get("id");
-    const response = await fetch(
-      "http://localhost:3000/product?id=" + productId
-    );
-    const data = await response.json();
-    repeatDetailProduct(data);
-
+  const response = await fetch("http://localhost:3000/product?id=" + productId);
+  const data = await response.json();
+  repeatDetailProduct(data);
 }
 
 fetchData();
@@ -18,12 +15,11 @@ function repeatDetailProduct(product) {
   detailContainer.innerHTML = "";
 
   product.forEach(function (item) {
-
-    const colors = item.color; 
+    const colors = item.color;
     const colorDivs = colors.map((color) => {
       return `<div class="color-box" style="background-color: ${color};"></div>`;
     });
-    
+
     const sizes = item.size;
     const sizeOptions = sizes.map((size) => {
       return `<p class="size poppins-font_14 display__com">${size}</p>`;

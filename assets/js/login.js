@@ -1,21 +1,8 @@
-let nvbruser=document.querySelector(".navbar-user");
+const logbtn = document.querySelector(".login-button");
 
-document.addEventListener("DOMContentLoaded", function() {
-  const loggedInUser = localStorage.getItem("loggedInUser");
-  
-  if (loggedInUser) {
-    // Kullanıcı giriş yapmışsa, navbar'ı göster
-    const nvbruser = document.querySelector(".navbar-user");
-    if (nvbruser) {
-      nvbruser.style.display = "block";
-      localStorage.getItem("lo")
-    }
-  }
-const logbtn= document.querySelector(".login-button");
-  logbtn.addEventListener("click", function (e) {
-    e.preventDefault();
-    getUserData();
-  });
+logbtn.addEventListener("click", function (e) {
+  e.preventDefault();
+  getUserData();
 });
 
 function getUserData() {
@@ -23,16 +10,19 @@ function getUserData() {
     .then((response) => response.json())
     .then((data) => checkUser(data));
 }
+
 function checkUser(users) {
-  const emailorPhoneInput = document.querySelector(".emailOrPhone-input").value;
+  const emailOrPhoneInput = document.querySelector(".emailOrPhone-input").value;
   const passwordInput = document.querySelector(".password-input").value;
-  if(emailorPhoneInput!=null){
-    let u=users.find(u=>u.emailOrPhone==emailorPhoneInput)
-    console.log(u);
-    if (u.password === passwordInput) {
-      window.location.href="./index.html";
-    }
+
+  const user = users.find((u) => u.emailOrPhone === emailOrPhoneInput);
+
+  if (user && user.password === passwordInput) {
+    window.location.href = "./index.html";
+
+    localStorage.setItem("loggedInUser", JSON.stringify(user));
+
+    document.querySelector(".emailOrPhone-input").value = "";
+    document.querySelector(".password-input").value = "";
   }
-  document.querySelector(".emailOrPhone-input").value = "";
-  document.querySelector(".password-input").value = "";
 }

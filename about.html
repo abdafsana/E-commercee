@@ -12,6 +12,8 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/swiperAbout.css" />
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
   </head>
   <body>
     <!-- Header section -->
@@ -63,12 +65,14 @@
                   <input
                     type="text"
                     class="navbar-input common-poppins search-input"
-                    placeholder="What are you looking for?">
-                  
-                    <i class="fa-solid fa-magnifying-glass navbar-icons"></i>
+                    placeholder="What are you looking for?"
+                  />
+
+                  <i class="fa-solid fa-magnifying-glass navbar-icons"></i>
                 </a>
                 <a href="./wishlist.html" class="navbar-wishlist">
                   <i class="fa-regular fa-heart navbar-icons"></i>
+                  <span id="cart-counts" class="cart-counts"></span>
                 </a>
                 <a href="./cart.html" class="navbar-buy">
                   <i class="fa-solid fa-cart-shopping navbar-icons"></i>
@@ -159,9 +163,9 @@
         </div>
       </section>
       <!-- Liders Section-->
-      <section class="liders-section display__com">
-        <div class="container liders-container common__display">
-          <div class="lider-card">
+      <section class="liders-section display__com swiper mySwiper">
+        <div class="container swiper-wrapper liders-container common__display">
+          <div class="swiper-slide swpr">
             <div class="lider-card--img">
               <img
                 src="./assets/image/lider-1.png"
@@ -180,7 +184,7 @@
               </div>
             </div>
           </div>
-          <div class="lider-card">
+          <div class="swiper-slide swpr">
             <div class="lider-container--img">
               <img
                 src="./assets/image/lider-2.png"
@@ -199,7 +203,7 @@
               </div>
             </div>
           </div>
-          <div class="lider-card">
+          <div class="swiper-slide swpr">
             <div class="lider-container--img">
               <img
                 src="./assets/image/lider-3.png"
@@ -218,24 +222,46 @@
               </div>
             </div>
           </div>
+          <div class="swiper-slide swpr">
+            <div class="lider-card--img">
+              <img
+                src="./assets/image/lider-1.png"
+                alt="card lider image for e-commerce"
+              />
+            </div>
+            <div class="lider-card--info">
+              <p class="lider-card--title">Tom Cruise</p>
+              <p class="lider-card--subtitle common-poppins__text">
+                Founder & Chairman
+              </p>
+              <div class="card-lider--icon">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide swpr">
+            <div class="lider-container--img">
+              <img
+                src="./assets/image/lider-2.png"
+                alt="card lider image for e-commerce"
+              />
+            </div>
+            <div class="lider-card--info">
+              <p class="lider-card--title">Emma Watson</p>
+              <p class="lider-card--subtitle common-poppins__text">
+                Managing Director
+              </p>
+              <div class="card-lider--icon">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="pagination-circle display__com">
-          <div class="circle display__com">
-            <div class="crcl1"></div>
-          </div>
-          <div class="circle display__com">
-            <div class="crcl"></div>
-          </div>
-          <div class="circle display__com">
-            <div class="crcl"></div>
-          </div>
-          <div class="circle display__com">
-            <div class="crcl"></div>
-          </div>
-          <div class="circle display__com">
-            <div class="crcl"></div>
-          </div>
-        </div>
+        <div class="pagination-circle swiper-pagination display__com"></div>
       </section>
       <!-- MainFooter Section -->
       <section class="mainFooter_section display__com">
@@ -431,5 +457,8 @@
         </p>
       </div>
     </footer>
+    <script src="./assets/js/common.js"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/about.js"></script>
   </body>
 </html>

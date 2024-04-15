@@ -15,85 +15,259 @@
     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
   </head>
   <body>
-   <!-- Header section -->
-   <header class="header-section" id="header">
-    <div class="container header-container">
-      <div class="nvbr-container">
-        <div class="nvbr__div">
-          <div class="nvbr__left">
-            <p class="header-title common-style__header common-poppins">
-              Summer Sale For All Swim Suits And Free Express Delivery - OFF
-              50%!
-              <a href="#" class="header-link common-style__header">ShopNow</a>
-            </p>
-          </div>
-          <div class="container-right">
-            <select
-              title="select"
-              class="select-language common-style__header common-poppins"
-            >
-              <option value="eng">English</option>
-              <option value="aze">Azerbaijan</option>
-              <option value="rus">Rus</option>
-            </select>
-          </div>
-        </div>
-      </div>
-      <nav class="navbar">
-        <div class="navbar-container common__display">
-          <div class="navbar-container--title navbar__div">
-            <h1 class="navbar-title">Exclusive</h1>
-          </div>
-          <ul class="navbar-list navbar__div">
-            <li class="navbar-list__item common-poppins">
-              <a href="./index.html">Home</a>
-            </li>
-            <li class="navbar-list__item common-poppins">
-              <a href="./contact.html">Contact</a>
-            </li>
-            <li class="navbar-list__item common-poppins">
-              <a href="./about.html">About</a>
-            </li>
-            <li class="navbar-list__item common-poppins">
-              <a href="./SignUp.html">Sign Up</a>
-            </li>
-          </ul>
-          <div class="navbar-container--detail navbar__div">
-            <div class="navbar-detail__conatiner display__com navbar-com">
-              <a class="navbar-input__div common__display" href="#carditems">
-                <input
-                  type="text"
-                  class="navbar-input common-poppins search-input"
-                  placeholder="What are you looking for?">
-                
-                  <i class="fa-solid fa-magnifying-glass navbar-icons"></i>
-              </a>
-              <a href="./wishlist.html" class="navbar-wishlist">
-                <i class="fa-regular fa-heart navbar-icons"></i>
-              </a>
-              <a href="./cart.html" class="navbar-buy">
-                <i class="fa-solid fa-cart-shopping navbar-icons"></i>
-                <span id="cart-count" class="cart-count"></span>
-              </a>
-              <a href="./account.html" class="navbar-user">
-                <i class="fa-solid fa-user navbar-icons"></i>
-              </a>
+    <!-- Header section -->
+    <header class="header-section" id="header">
+      <div class="container header-container">
+        <div class="nvbr-container">
+          <div class="nvbr__div">
+            <div class="nvbr__left">
+              <p class="header-title common-style__header common-poppins">
+                Summer Sale For All Swim Suits And Free Express Delivery - OFF
+                50%!
+                <a href="#" class="header-link common-style__header">ShopNow</a>
+              </p>
+            </div>
+            <div class="container-right">
+              <select
+                title="select"
+                class="select-language common-style__header common-poppins"
+              >
+                <option value="eng">English</option>
+                <option value="aze">Azerbaijan</option>
+                <option value="rus">Rus</option>
+              </select>
             </div>
           </div>
         </div>
-      </nav>
-    </div>
-  </header>
+        <nav class="navbar">
+          <div class="navbar-container common__display">
+            <div class="navbar-container--title navbar__div">
+              <h1 class="navbar-title">Exclusive</h1>
+            </div>
+            <ul class="navbar-list navbar__div">
+              <li class="navbar-list__item common-poppins">
+                <a href="./index.html">Home</a>
+              </li>
+              <li class="navbar-list__item common-poppins">
+                <a href="./contact.html">Contact</a>
+              </li>
+              <li class="navbar-list__item common-poppins">
+                <a href="./about.html">About</a>
+              </li>
+              <li class="navbar-list__item common-poppins">
+                <a href="./SignUp.html">Sign Up</a>
+              </li>
+            </ul>
+            <div class="navbar-container--detail navbar__div">
+              <div class="navbar-detail__conatiner display__com navbar-com">
+                <a class="navbar-input__div common__display" href="#carditems">
+                  <input
+                    type="text"
+                    class="navbar-input common-poppins search-input"
+                    placeholder="What are you looking for?"
+                  />
 
+                  <i class="fa-solid fa-magnifying-glass navbar-icons"></i>
+                </a>
+                <a href="./wishlist.html" class="navbar-wishlist">
+                  <i class="fa-regular fa-heart navbar-icons"></i>
+                  <span id="cart-counts" class="cart-counts"></span>
+                </a>
+                <a href="./cart.html" class="navbar-buy">
+                  <i class="fa-solid fa-cart-shopping navbar-icons"></i>
+                  <span id="cart-count" class="cart-count"></span>
+                </a>
+                <a href="./account.html" class="navbar-user">
+                  <i class="fa-solid fa-user navbar-icons"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
     <!-- Main Section -->
     <main>
+      <!-- Product Detail Section -->
       <section class="productDetail-section display__com">
         <div class="container productDetail-container">
           <div class="productDetail-common--container display__between"></div>
         </div>
       </section>
+      <!-- Related Product List -->
+      <section class="related-section">
+        <div class="container bestSelling-container">
+          <div class="card-container--header">
+            <div class="card-header--section">
+              <div class="red-box"></div>
+              <p class="contact-call wishList-miniFoot">Related Item</p>
+            </div>
+          </div>
+          <div class="bestSelling-card display__between">
+            <div class="card-item">
+              <div class="card-item--body display__between">
+                <div class="cardItem-header">
+                  <div class="card-percantage"></div>
+                  <div class="card-Icons">
+                    <a href="./wishlist.html" class="card-Icon display__com">
+                      <i class="fa-regular fa-heart"></i>
+                    </a>
+                    <div class="card-Icon display__com">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <a href="./productDetail.html">
+                  <img
+                    src="https://m.media-amazon.com/images/I/61js10FBa-L._AC_SX679_.jpg"
+                    alt="cart image"
+                  />
+                </a>
+              </div>
+              <a href="./cart.html" class="card-item--footer display__com">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p class="common-poppins card--cartIcon">Add To Cart</p>
+              </a>
+              <div class="card-item--minifooter">
+                <p class="poppins-font500 card-title">
+                  Sleek All-Terrain Go-Kart
+                </p>
+                <p class="poppins-font500 wishList-miniFoot">$378</p>
+                <div class="star-icons">
+                  <div class="star-icon--div">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-item">
+              <div class="card-item--body display__between">
+                <div class="cardItem-header">
+                  <div class="card-percantage"></div>
+                  <div class="card-Icons">
+                    <a href="./wishlist.html" class="card-Icon display__com">
+                      <i class="fa-regular fa-heart"></i>
+                    </a>
+                    <div class="card-Icon display__com">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <a href="./productDetail.html">
+                  <img
+                    src="https://cdn.dsmcdn.com/mnresize/620/820/ty997/product/media/images/prod/SPM/PIM/20230912/20/b4604798-f42c-3e82-b4ed-96b90eec5af9/1_org_zoom.jpg"
+                    alt="cart image"
+                  />
+                </a>
+              </div>
+              <a href="./cart.html" class="card-item--footer display__com">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p class="common-poppins card--cartIcon">Add To Cart</p>
+              </a>
+              <div class="card-item--minifooter">
+                <p class="poppins-font500 card-title">
+                  Classic Cream Hooded Sweatshirt
+                </p>
+                <p class="poppins-font500 wishList-miniFoot">$79</p>
+                <div class="star-icons">
+                  <div class="star-icon--div">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-item">
+              <div class="card-item--body display__between">
+                <div class="cardItem-header">
+                  <div class="card-percantage"></div>
+                  <div class="card-Icons">
+                    <a href="./wishlist.html" class="card-Icon display__com">
+                      <i class="fa-regular fa-heart"></i>
+                    </a>
+                    <div class="card-Icon display__com">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <a href="./productDetail.html">
+                  <img
+                    src="https://m.media-amazon.com/images/I/81Y8UVcjmLL._AC_SX679_.jpg"
+                    alt="cart image"
+                  />
+                </a>
+              </div>
+              <a href="./cart.html" class="card-item--footer display__com">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p class="common-poppins card--cartIcon">Add To Cart</p>
+              </a>
+              <div class="card-item--minifooter">
+                <p class="poppins-font500 card-title">
+                  Sleek Modern Leather Sofa
+                </p>
+                <p class="poppins-font500 wishList-miniFoot">$1202</p>
+                <div class="star-icons">
+                  <div class="star-icon--div">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-item">
+              <div class="card-item--body display__between">
+                <div class="cardItem-header">
+                  <div class="card-percantage"></div>
+                  <div class="card-Icons">
+                    <a href="./wishlist.html" class="card-Icon display__com">
+                      <i class="fa-regular fa-heart"></i>
+                    </a>
+                    <div class="card-Icon display__com">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <a href="./productDetail.html">
+                  <img
+                    src="https://cdn.dsmcdn.com/ty30/product/media/images/20201208/15/36096636/117026427/1/1_org_zoom.jpg"
+                    alt="cart image"
+                  />
+                </a>
+              </div>
+              <a href="./cart.html" class="card-item--footer display__com">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p class="common-poppins card--cartIcon">Add To Cart</p>
+              </a>
+              <div class="card-item--minifooter">
+                <p class="poppins-font500 card-title">
+                  Fun Mini Kid's Water Toy
+                </p>
+                <p class="poppins-font500 wishList-miniFoot">$35</p>
+                <div class="star-icons">
+                  <div class="star-icon--div">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-
     <!-- Footer Section -->
     <footer class="footer-section">
       <div class="container footer-container">
@@ -244,5 +418,6 @@
       </div>
     </footer>
     <script src="./assets/js/productDetail.js"></script>
+    <script src="./assets/js/common.js"></script>
   </body>
 </html>

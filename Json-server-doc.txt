@@ -1,5 +1,0 @@
-//Json-server ise salma
-npx json-server --port 8080 E-commerce-master/data.json
-
-//kopyaliyb atarsan bir basa lazim olanda hee gedrem men oprem efsos
-muck get nezom get coox sagolbuyur gulum <3

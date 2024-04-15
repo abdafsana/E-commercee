@@ -1,0 +1,18 @@
+/* SWIPER SLIDER */
+.swiper {
+    width: 80%;
+  }
+  .swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 370px;
+    height: 430px;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+  

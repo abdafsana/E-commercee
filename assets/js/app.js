@@ -31,15 +31,15 @@ function validateForm() {
     emailOrPhoneRegex.test(form.emailOrPhone.value) &&
     passwordRegex.test(form.password.value)
   ) {
-    const user={
-        username:form.username.value,
-        password:form.password.value,
-        emailOrPhone:form.emailOrPhone.value
+    const user = {
+      username: form.username.value,
+      password: form.password.value,
+      emailOrPhone: form.emailOrPhone.value,
     };
     dataSendToServer(user);
-    window.location.href="../login.html"
+    window.location.href = "../login.html";
     form.reset();
-    console.log("hamisindan kecdi")
+    console.log("hamisindan kecdi");
   } else {
     console.log("Error");
     form.username.style.borderColor = "red";

@@ -43,7 +43,8 @@ function displayCartItems(product) {
 }
 
 function handleChange(input, price) {
-  const totalElement = input.parentElement.nextElementSibling.querySelector('.subtotal');
+  const totalElement =
+    input.parentElement.nextElementSibling.querySelector(".subtotal");
   const quantity = parseInt(input.value);
   const totalPrice = price * quantity;
   totalElement.textContent = `$${totalPrice.toFixed(2)}`;
@@ -52,18 +53,20 @@ function handleChange(input, price) {
 
 function calculateSubtotal() {
   let subtotal = 0;
-  const subtotalElements = document.querySelectorAll('.subtotal');
+  const subtotalElements = document.querySelectorAll(".subtotal");
 
   subtotalElements.forEach((subtotalElement) => {
-    const subtotalValue = parseFloat(subtotalElement.textContent.replace('$', ''));
+    const subtotalValue = parseFloat(
+      subtotalElement.textContent.replace("$", "")
+    );
     subtotal += subtotalValue;
   });
 
-  const subtotalDisplay = document.querySelector('.card-subtotal');
+  const subtotalDisplay = document.querySelector(".card-subtotal");
 
   if (subtotalDisplay) {
     subtotalDisplay.textContent = `$${subtotal.toFixed(2)}`;
   }
-  const totalDisplay = document.querySelector('.card-total');
-  totalDisplay.textContent=subtotalDisplay.textContent
+  const totalDisplay = document.querySelector(".card-total");
+  totalDisplay.textContent = subtotalDisplay.textContent;
 }
