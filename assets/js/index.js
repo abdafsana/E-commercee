@@ -238,7 +238,7 @@ function bestSellingProduct(items,rows_per_page1,page){
           </div>
         </div>
       </div>
-      <a href="./productDetail.html">
+      <a href="./productDetail.html?id=${product.id}">
       <img src=${product.images[0]} alt=${product.title} />
       </a>
     </div>
@@ -269,12 +269,12 @@ const flashProductList=document.querySelector(".today-card")
 function flashProduct(items, rows_per_page1, page) {
   flashProductList.innerHTML = "";
 
-
-  items.sort((a, b) => b.price - a.price);
+  const filteredItems = items.filter((product) => product.price >= 550);
+  filteredItems.sort((a, b) => b.price - a.price);
 
   let start = (page - 1) * rows_per_page1;
   let end = start + rows_per_page1;
-  let paginatedItems = items.slice(start, end);
+  let paginatedItems = filteredItems.slice(start, end);
 
   paginatedItems.forEach((product) => {
     flashProductList.innerHTML += ` 
@@ -291,7 +291,7 @@ function flashProduct(items, rows_per_page1, page) {
               </div>
             </div>
           </div>
-          <a href="./productDetail.html">
+          <a href="./productDetail.html?id=${product.id}"">
             <img src=${product.images[0]} alt=${product.title} />
           </a>
         </div>
