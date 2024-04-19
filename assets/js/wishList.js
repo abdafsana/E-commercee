@@ -51,9 +51,9 @@ function removeFromWishlist(iconElement, productId) {
   const cardItem =
     iconElement.parentElement.parentElement.parentElement.parentElement;
   cardItem.remove();
-
   const wishCountElement = document.querySelector(".wislist-ttl");
   wishCountElement.textContent = `Wishlist (${updatedWishlist.length})`;
   const wishCountElements = document.querySelector(".cart-counts");
   localStorage.setItem("wishCnt", updatedWishlist.length);
+
 }
